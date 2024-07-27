@@ -7,7 +7,7 @@ function Profile({ onBack }) {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const userID = localStorage.getItem('userID');
+    const userID = localStorage.getItem('userID'); 
     if (!userID) {
       setError('User ID not found. Please log in again.');
       return;
