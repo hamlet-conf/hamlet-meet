@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hamlet-meet/static/css/main.e6c13ad2.css",
+    "main.js": "/hamlet-meet/static/js/main.f97f3b6a.js",
+    "static/js/453.e02d76ac.chunk.js": "/hamlet-meet/static/js/453.e02d76ac.chunk.js",
+    "index.html": "/hamlet-meet/index.html",
+    "main.e6c13ad2.css.map": "/hamlet-meet/static/css/main.e6c13ad2.css.map",
+    "main.f97f3b6a.js.map": "/hamlet-meet/static/js/main.f97f3b6a.js.map",
+    "453.e02d76ac.chunk.js.map": "/hamlet-meet/static/js/453.e02d76ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f97f3b6a.js"
+  ]
+}
