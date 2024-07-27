@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ThemeProvider, createTheme, CssBaseline, Box } from '@mui/material';
+import { ThemeProvider, createTheme, CssBaseline, Box, Fade } from '@mui/material';
 import Login from './Login';
 import Home from './Home';
 import Profile from './Profile';
@@ -65,17 +65,19 @@ function App() {
             showProfileButton={!showProfile}
           />
         )}
-        <Box sx={{ flexGrow: 1 }}>
-          {isLoggedIn ? (
-            showProfile ? (
-              <Profile onBack={toggleProfile} />
+        <Fade in={true} timeout={500}>
+          <Box sx={{ flexGrow: 1 }}>
+            {isLoggedIn ? (
+              showProfile ? (
+                <Profile onBack={toggleProfile} />
+              ) : (
+                <Home onShowProfile={toggleProfile} />
+              )
             ) : (
-              <Home />
-            )
-          ) : (
-            <Login onLogin={handleLogin} />
-          )}
-        </Box>
+              <Login onLogin={handleLogin} />
+            )}
+          </Box>
+        </Fade>
       </Box>
     </ThemeProvider>
   );

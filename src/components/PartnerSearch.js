@@ -2,45 +2,25 @@ import React, { useState } from 'react';
 import { TextField, Button, Box } from '@mui/material';
 
 function PartnerSearch({ onPartnerFound }) {
-  const [partnerID, setPartnerID] = useState('');
+  const [partnerId, setPartnerId] = useState('');
 
-  const handleFetchPartnerProfile = async () => {
-    try {
-      const response = await fetch(`${process.env.PUBLIC_URL}/pairData.json`);
-      const pairData = await response.json();
-      
-      const userID = localStorage.getItem('userID');
-      const partnerData = pairData[userID] && pairData[userID][partnerID];
-      
-      if (partnerData) {
-        onPartnerFound(partnerData);
-      } else {
-        alert('Partner not found or not paired with you.');
-      }
-    } catch (error) {
-      console.error('Error fetching partner data:', error);
-      alert('Error fetching partner data. Please try again.');
+  const handleSearch = () => {
+    if (partnerId.trim()) {
+      onPartnerFound({ id: partnerId.trim() });
     }
   };
 
   return (
-    <Box mt={3}>
+    <Box>
       <TextField
-        label="Enter Partner's ID"
-        variant="outlined"
+        label="Partner ID"
+        value={partnerId}
+        onChange={(e) => setPartnerId(e.target.value)}
         fullWidth
-        value={partnerID}
-        onChange={(e) => setPartnerID(e.target.value)}
         margin="normal"
       />
-      <Button 
-        variant="contained" 
-        color="primary" 
-        fullWidth 
-        onClick={handleFetchPartnerProfile}
-        style={{ marginTop: '10px' }}
-      >
-        Find Partner
+      <Button onClick={handleSearch} variant="contained" color="primary">
+        Search
       </Button>
     </Box>
   );
