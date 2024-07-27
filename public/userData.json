@@ -1,0 +1,24 @@
+[
+    {
+      "ID": 16,
+      "Name": "Evangelia Aspropotamiti",
+      "Affiliation": "The Niels Bohr Institute",
+      "ORCID": null,
+      "In-person attendance": "Yes",
+      "Workshop Goals": "I used ML in my bachelor and did an ML internship before my masters degree, so I would like to get inspired by this workshop on how to apply machine learning once again to my current work as a PhD in quantum physics. I wish to see how other physicists implement it in their research, discuss with them and also ask for advice on how it's applicable to my work.",
+      "Interest in ML methods/data": "I have worked with CNN's and untrained neural networks",
+      "Interest in Physics": "I work in theoretical Quantum Optomechanics, in the theoretical quantum optics group",
+      "Seniority/Role": "PhD student"
+    },
+    {
+      "ID": 38,
+      "Name": "Rasmus Bjørk",
+      "Affiliation": "Technical University of Denmark",
+      "ORCID": "0000-0002-3728-2326",
+      "In-person attendance": "Yes",
+      "Workshop Goals": "To meet fellow researchers and learn what is going on in the field.",
+      "Interest in ML methods/data": "CNN, Generative models",
+      "Interest in Physics": "Magnetism, Heat transfer",
+      "Seniority/Role": "Professor"
+    }
+  ]
