@@ -1,10 +1,17 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Typography, Paper, Grid, Button, CircularProgress, Box, Fade } from '@mui/material';
+import { Container, Typography, Paper, Grid, Button, CircularProgress, Box, Fade, IconButton, Modal } from '@mui/material';
 import ArrowBack from '@mui/icons-material/ArrowBack';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fas);
 
 function Profile({ onBack }) {
   const [userData, setUserData] = useState(null);
   const [error, setError] = useState(null);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedBadge, setSelectedBadge] = useState(null);
 
   useEffect(() => {
     const userID = localStorage.getItem('userID'); 
@@ -34,6 +41,15 @@ function Profile({ onBack }) {
       });
   }, []);
 
+  const handleBadgeClick = (badge) => {
+    setSelectedBadge(badge);
+    setModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
+
   if (error) {
     return <Typography color="error">Error: {error}</Typography>;
   }
@@ -42,37 +58,76 @@ function Profile({ onBack }) {
     return <CircularProgress />;
   }
 
+  const badgeColors = ['#FF6B6B', '#4ECDC4', '#45B7D1'];
+
   return (
     <Box sx={{ flexGrow: 1 }}>
-        <Fade in={true} timeout={500}>
+      <Fade in={true} timeout={500}>
         <Container maxWidth="md" sx={{ mt: 4 }}>
-            <Button
-            startIcon={<ArrowBack />}
-            onClick={onBack}
-            sx={{ mb: 2 }}
-            >
+          <Button startIcon={<ArrowBack />} onClick={onBack} sx={{ mb: 2 }}>
             Back to Home
-            </Button>
-            <Paper elevation={3} sx={{ p: 3 }}>
+          </Button>
+          <Paper elevation={3} sx={{ p: 3 }}>
             <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold' }}>{userData.Name}</Typography>
-            <Grid container spacing={3}>
-                <Grid item xs={12} sm={6}>
-                <Typography><strong>Affiliation:</strong> {userData.Affiliation}</Typography>
-                <Typography><strong>ORCID:</strong> {userData.ORCID || 'N/A'}</Typography>
-                <Typography><strong>In-person attendance:</strong> {userData['In-person attendance']}</Typography>
-                <Typography><strong>Seniority/Role:</strong> {userData['Seniority/Role']}</Typography>
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                <Typography><strong>Interest in ML methods/data:</strong> {userData['Interest in ML methods/data']}</Typography>
-                <Typography><strong>Interest in Physics:</strong> {userData['Interest in Physics']}</Typography>
-                </Grid>
-                <Grid item xs={12}>
-                <Typography><strong>Workshop Goals:</strong> {userData['Workshop Goals']}</Typography>
-                </Grid>
-            </Grid>
-            </Paper>
+            <Typography><strong>Affiliation:</strong> {userData.Affiliation}</Typography>
+            <Typography><strong>Seniority/Role:</strong> {userData['Seniority/Role']}</Typography>
+            {userData.ORCID && <Typography><strong>ORCID:</strong> {userData.ORCID}</Typography>}
+            
+            <Box sx={{ mt: 3, display: 'flex', justifyContent: 'space-around' }}>
+              {userData.researcher_badges.research_interests.map((badge, index) => (
+                <Box key={index} sx={{ textAlign: 'center', width: '30%' }}>
+                  <IconButton
+                    onClick={() => handleBadgeClick(badge)}
+                    sx={{
+                      width: 80,
+                      height: 80,
+                      backgroundColor: badgeColors[index],
+                      '&:hover': { backgroundColor: badgeColors[index] },
+                      boxShadow: 3,
+                      mb: 1,
+                    }}
+                  >
+                    <FontAwesomeIcon icon={badge.font_awesome_icon} size="2x" color="white" />
+                  </IconButton>
+                  <Typography variant="caption" sx={{ display: 'block', textAlign: 'center', fontWeight: 'bold' }}>
+                    {badge.research_interest_title.split(' ').map((word, i) => (
+                      <React.Fragment key={i}>
+                        {word}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </Typography>
+                </Box>
+              ))}
+            </Box>
+          </Paper>
         </Container>
       </Fade>
+
+      <Modal
+        open={modalOpen}
+        onClose={handleCloseModal}
+        aria-labelledby="badge-modal-title"
+        aria-describedby="badge-modal-description"
+      >
+        <Box sx={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          width: 400,
+          bgcolor: 'background.paper',
+          boxShadow: 24,
+          p: 4,
+        }}>
+          <Typography id="badge-modal-title" variant="h6" component="h2">
+            {selectedBadge?.research_interest_title}
+          </Typography>
+          <Typography id="badge-modal-description" sx={{ mt: 2 }}>
+            {selectedBadge?.research_interest_long_description}
+          </Typography>
+        </Box>
+      </Modal>
     </Box>
   );
 }

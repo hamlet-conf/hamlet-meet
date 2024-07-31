@@ -63,7 +63,7 @@ function PartnerProfile({ partnerData, onBack, userData }) {
         <Paper elevation={3} sx={{ p: 3 }}>
           <Typography variant="h4" gutterBottom>{partnerDetails.name}</Typography>
           
-          <Accordion defaultExpanded={false}>
+          <Accordion defaultExpanded={true}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="partner-details-content"
