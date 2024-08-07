@@ -2,8 +2,10 @@ import React from 'react';
 import { AppBar, Toolbar, Typography, IconButton, Box } from '@mui/material';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import Logout from '@mui/icons-material/Logout';
+import History from '@mui/icons-material/History';
+import Home from '@mui/icons-material/Home';
 
-function Navbar({ onShowProfile, onLogout, showProfileButton = true }) {
+function Navbar({ onShowProfile, onLogout, onShowHistory, showProfileButton = true, isHistoryShown }) {
   return (
     <AppBar position="static" sx={{ backgroundColor: '#1a237e' }}>
       <Toolbar>
@@ -13,6 +15,9 @@ function Navbar({ onShowProfile, onLogout, showProfileButton = true }) {
             Hamlet Meet
           </Typography>
         </Box>
+        <IconButton color="inherit" onClick={onShowHistory}>
+          {isHistoryShown ? <Home /> : <History />}
+        </IconButton>
         {showProfileButton && (
           <IconButton color="inherit" onClick={onShowProfile}>
             <AccountCircle />

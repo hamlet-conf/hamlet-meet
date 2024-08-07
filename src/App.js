@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ThemeProvider, createTheme, CssBaseline, Box, Fade } from '@mui/material';
+import { ThemeProvider, createTheme, CssBaseline, Box, Fade, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Button } from '@mui/material';
 import Login from './Login';
 import Home from './Home';
 import Profile from './Profile';
@@ -34,6 +34,8 @@ const theme = createTheme({
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [showProfile, setShowProfile] = useState(false);
+  const [showHistory, setShowHistory] = useState(false);
+  const [showLogoutConfirmation, setShowLogoutConfirmation] = useState(false);
 
   useEffect(() => {
     const userID = localStorage.getItem('userID');
@@ -46,12 +48,29 @@ function App() {
 
   const toggleProfile = () => {
     setShowProfile(!showProfile);
+    setShowHistory(false);
   };
 
-  const handleLogout = () => {
+  const toggleHistory = () => {
+    setShowHistory(!showHistory);
+    setShowProfile(false);
+  };
+
+  const handleLogoutClick = () => {
+    setShowLogoutConfirmation(true);
+  };
+
+  const handleLogoutConfirm = () => {
     localStorage.removeItem('userID');
+    sessionStorage.removeItem('partnerHistory');
     setIsLoggedIn(false);
     setShowProfile(false);
+    setShowHistory(false);
+    setShowLogoutConfirmation(false);
+  };
+
+  const handleLogoutCancel = () => {
+    setShowLogoutConfirmation(false);
   };
 
   return (
@@ -61,8 +80,10 @@ function App() {
         {isLoggedIn && (
           <Navbar
             onShowProfile={toggleProfile}
-            onLogout={handleLogout}
+            onShowHistory={toggleHistory}
+            onLogout={handleLogoutClick}
             showProfileButton={!showProfile}
+            isHistoryShown={showHistory}
           />
         )}
         <Fade in={true} timeout={500}>
@@ -71,13 +92,37 @@ function App() {
               showProfile ? (
                 <Profile onBack={toggleProfile} />
               ) : (
-                <Home onShowProfile={toggleProfile} />
+                <Home 
+                  showHistory={showHistory}
+                  onShowHistory={toggleHistory}
+                />
               )
             ) : (
               <Login onLogin={handleLogin} />
             )}
           </Box>
         </Fade>
+        <Dialog
+          open={showLogoutConfirmation}
+          onClose={handleLogoutCancel}
+          aria-labelledby="alert-dialog-title"
+          aria-describedby="alert-dialog-description"
+        >
+          <DialogTitle id="alert-dialog-title">{"Confirm Logout"}</DialogTitle>
+          <DialogContent>
+            <DialogContentText id="alert-dialog-description">
+              Are you sure you want to log out? Your viewing history will be cleared.
+            </DialogContentText>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={handleLogoutCancel} color="primary">
+              Cancel
+            </Button>
+            <Button onClick={handleLogoutConfirm} color="primary" autoFocus>
+              Logout
+            </Button>
+          </DialogActions>
+        </Dialog>
       </Box>
     </ThemeProvider>
   );
