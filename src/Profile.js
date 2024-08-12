@@ -4,6 +4,7 @@ import ArrowBack from '@mui/icons-material/ArrowBack';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 library.add(fas);
 
@@ -71,7 +72,54 @@ function Profile({ onBack }) {
             <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold' }}>{userData.Name}</Typography>
             <Typography><strong>Affiliation:</strong> {userData.Affiliation}</Typography>
             <Typography><strong>Seniority/Role:</strong> {userData['Seniority/Role']}</Typography>
-            {userData.ORCID && <Typography><strong>ORCID:</strong> {userData.ORCID}</Typography>}
+            {userData.ORCID && (
+              <Typography>
+                <strong>ORCID:</strong>{' '}
+                <Button
+                  variant="text"
+                  color="primary"
+                  endIcon={<OpenInNewIcon />}
+                  href={`https://orcid.org/${userData.ORCID}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    textTransform: 'none',
+                    fontWeight: 'normal',
+                    padding: '0 4px',
+                    '&:hover': {
+                      backgroundColor: 'rgba(0, 0, 0, 0.04)',
+                    },
+                  }}
+                >
+                  {userData.ORCID}
+                </Button>
+              </Typography>
+            )}
+            
+            {userData.Contributions && userData.Contributions.Title && (
+              <Box sx={{ mt: 3 }}>
+                <Typography variant="h6" gutterBottom>Contribution</Typography>
+                <Button
+                  variant="text"
+                  color="primary"
+                  endIcon={userData.Contributions.Url && <OpenInNewIcon />}
+                  href={userData.Contributions.Url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    textTransform: 'none',
+                    fontWeight: 'normal',
+                    justifyContent: 'flex-start',
+                    padding: '4px 8px',
+                    '&:hover': {
+                      backgroundColor: 'rgba(0, 0, 0, 0.04)',
+                    },
+                  }}
+                >
+                  {userData.Contributions.Title}
+                </Button>
+              </Box>
+            )}
             
             <Box sx={{ mt: 3, display: 'flex', justifyContent: 'space-around' }}>
               {userData.researcher_badges.research_interests.map((badge, index) => (

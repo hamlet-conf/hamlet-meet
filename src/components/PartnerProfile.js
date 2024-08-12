@@ -73,7 +73,10 @@ function PartnerProfile({ partnerData, onBack, userData }) {
             </AccordionSummary>
             <AccordionDetails>
               {partnerDetails.userData ? (
-                <PartnerDetails userData={partnerDetails.userData} />
+                <PartnerDetails 
+                  userData={partnerDetails.userData} 
+                  contributions={partnerDetails.userData.Contributions}
+                />
               ) : (
                 <Typography>Partner details not available.</Typography>
               )}
