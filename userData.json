@@ -4,25 +4,29 @@
     "Name": "Evangelia Aspropotamiti",
     "Seniority/Role": "PhD student",
     "Affiliation": "The Niels Bohr Institute",
-    "ORCID": null,
+    "ORCID": "",
     "researcher_badges": {
       "research_interests": [
         {
           "research_interest_title": "Machine Learning in Quantum Physics",
-          "research_interest_long_description": "Evangelia is passionate about exploring how machine learning can be integrated into quantum physics research. With a background in machine learning from her bachelor studies and a successful internship focused on these methods, she aims to delve deeper into the intersection of these two fields. She seeks to leverage machine learning algorithms, particularly convolutional neural networks, to enhance her current PhD research in quantum optomechanics. By engaging in discussions with other physicists at the workshop, she hopes to gather insights on effective implementation strategies and novel applications of ML within her theoretical framework.",
+          "research_interest_long_description": "Evangelia focuses on the integration of machine learning techniques into her work in quantum physics. With her background in CNNs and untrained neural networks, she seeks to explore how these modern computational tools can enhance her research in quantum optomechanics. She is particularly interested in investigating innovative ways to apply machine learning models to complex quantum systems, aiming to extract meaningful data and insights that could not be achieved through traditional analytical methods. This interdisciplinary approach allows her to bridge the gap between advanced machine learning and the experimental challenges posed by quantum phenomena.",
           "font_awesome_icon": "fas fa-brain"
         },
         {
-          "research_interest_title": "Theoretical Quantum Optomechanics",
-          "research_interest_long_description": "Evangelia's research is centered around theoretical quantum optomechanics, where she investigates the interactions between light and mechanical oscillators at the quantum level. Her work involves developing models to understand and predict the behavior of quantum systems influenced by optical fields. As a member of the theoretical quantum optics group, she focuses on understanding complex quantum phenomena and finding practical applications. Through this workshop, she aims to discuss her theoretical approaches with peers and expand her knowledge on new advancements in this rapidly evolving field.",
+          "research_interest_title": "Quantum Optomechanics",
+          "research_interest_long_description": "In her pursuit of a PhD, Evangelia delves into the fascinating realm of theoretical quantum optomechanics. Her research encompasses the study of the interaction between light and mechanical oscillators at the quantum level, which has profound implications for the development of future quantum technologies. She is specifically interested in the theoretical frameworks that govern these interactions and how they can be manipulated to observe and control quantum states. Evangelia's work contributes to a deeper understanding of how quantum mechanics operates at macroscopic scales, potentially laying the foundation for groundbreaking advancements in quantum information processing.",
           "font_awesome_icon": "fas fa-atom"
         },
         {
-          "research_interest_title": "Collaboration and Knowledge Exchange",
-          "research_interest_long_description": "Evangelia recognizes the value of collaboration and knowledge sharing in advancing her research. She believes that discussing her work with other physicists and understanding their approaches to machine learning applications in quantum physics can provide fresh perspectives. By attending the workshop, she aims to foster connections with fellow researchers, engage in meaningful discussions, and gain valuable feedback on her methods. This exchange of ideas will not only contribute to her personal growth as a researcher but also potentially inspire innovative solutions to challenges within her field.",
+          "research_interest_title": "Collaboration and Knowledge Sharing",
+          "research_interest_long_description": "Evangelia is eager to engage with fellow researchers at workshops to foster collaboration and knowledge sharing. She values opportunities to discuss ideas and methods with other physicists who are also applying machine learning in their work. By participating in these discussions, she aims to gain diverse perspectives on the applicability of machine learning in quantum research, receive feedback on her projects, and potentially collaborate on future endeavors. Her goal is to create a vibrant community of researchers where knowledge flows freely, enhancing the overall impact of machine learning in physics.",
           "font_awesome_icon": "fas fa-users"
         }
       ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
     }
   },
   {
@@ -34,21 +38,25 @@
     "researcher_badges": {
       "research_interests": [
         {
-          "research_interest_title": "Machine Learning Techniques",
-          "research_interest_long_description": "Rasmus is deeply invested in exploring Machine Learning methods, especially Convolutional Neural Networks (CNN) and generative models. His focus is on leveraging these advanced techniques to analyze complex data sets and generate new insights. Rasmus is particularly interested in how these methodologies can enhance material science applications, enabling better predictions and understanding of material behaviors under various conditions. By integrating machine learning with physical experiments, he aims to bridge the gap between theoretical models and practical applications, fostering innovations in the field.",
-          "font_awesome_icon": "fas fa-brain"
+          "research_interest_title": "Machine Learning Applications in Material Science",
+          "research_interest_long_description": "Rasmus is particularly interested in the deployment of machine learning techniques, especially Convolutional Neural Networks (CNNs) and generative models, to enhance material science research. His focus lies in how these advanced computational methods can be employed to better analyze and predict the properties of novel materials, improving the efficiency of material design. Rasmus believes that these ML methods can significantly refine experimental processes and assist in discovering new materials with desirable characteristics, ultimately bridging the gap between computational predictions and practical applications.",
+          "font_awesome_icon": "fas fa-laptop-code"
         },
         {
-          "research_interest_title": "Physics of Magnetism",
-          "research_interest_long_description": "Rasmus has a keen interest in the study of magnetism, focusing on its fundamental principles and applications. His research delves into understanding magnetic materials and phenomena, which have crucial implications in various technological advancements, including data storage and electronic devices. By investigating the interactions of magnetic fields with matter, Rasmus aims to contribute to the development of novel magnetic materials with improved properties and functionalities for future applications.",
-          "font_awesome_icon": "fas fa-magnet"
+          "research_interest_title": "Thermal Processes and Magnetism",
+          "research_interest_long_description": "In his research, Rasmus explores the intricate relationship between heat transfer and magnetism. He is keen on understanding how variations in thermal processes affect magnetic properties in materials. Rasmus aims to conduct experiments and simulations that delve into the thermomagnetic behavior of different material systems, shedding light on the mechanisms at play during heat-induced magnetic transitions. His goal is to contribute to the understanding of how we can utilize heat and magnetic responses in practical applications, such as in data storage and energy conversion devices.",
+          "font_awesome_icon": "fas fa-thermometer-half"
         },
         {
-          "research_interest_title": "Thermal Dynamics in Material Processing",
-          "research_interest_long_description": "Rasmus is passionate about the principles of heat transfer and their applications in material processing techniques, such as freeze-casting. His research investigates the dynamics of thermal gradients and how they influence the microstructural characteristics of freeze-cast materials. By examining these processes, he aspires to optimize production techniques for advanced materials that possess desirable structural features and performance attributes. This work not only enhances fundamental understanding but also has significant implications for engineering and material science.",
-          "font_awesome_icon": "fas fa-thermometer-three-quarters"
+          "research_interest_title": "Innovative Freeze-Casting Techniques",
+          "research_interest_long_description": "Rasmus's research also encompasses innovative approaches to freeze-casting techniques. He is dedicated to developing advanced devices that offer high precision in temperature control during freeze-casting processes. His recent work has demonstrated the significant impact that controlled thermal gradients can have on the structural characteristics of materials. By investigating the kinetics of freezing under dynamic conditions, Rasmus aims to refine manufacturing processes that result in materials with precise microstructure and enhanced functionality. This research has implications in various industries, including aerospace and biomedical engineering.",
+          "font_awesome_icon": "fas fa-snowflake"
         }
       ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
     }
   },
   {
@@ -60,21 +68,25 @@
     "researcher_badges": {
       "research_interests": [
         {
-          "research_interest_title": "AI in Quantum Research",
-          "research_interest_long_description": "Peter is deeply invested in exploring how artificial intelligence can be harnessed to propel research, particularly within the quantum realm. He aims to integrate machine learning techniques to predict current flow in quantum devices and to understand circuit topology. His work focuses on utilizing AI responsibly to assist in research, emphasizing the need for effective methodologies that respect ethical boundaries. Through his innovative approach, Peter hopes to uncover new insights into quantum transport phenomena and establish a framework for the responsible use of machine learning in scientific disciplines.",
+          "research_interest_title": "AI and ML in Research",
+          "research_interest_long_description": "Peter is deeply invested in exploring how artificial intelligence (AI) and machine learning (ML) can revolutionize research methodologies. He focuses on responsibly and effectively integrating these technologies within research frameworks to enhance efficiency and accuracy. His vision extends to ensuring that AI is utilized ethically, maintaining the integrity of scientific inquiry while leveraging its power to process complex data sets. By tapping into the potential of AI and ML, Peter aims to foster innovations that propel research forward without compromising ethical standards.",
           "font_awesome_icon": "fas fa-brain"
         },
         {
-          "research_interest_title": "Condensed Matter Physics",
-          "research_interest_long_description": "Peter's research interests lie prominently within the field of condensed matter physics, with a special focus on two-dimensional materials and their unique properties. His investigations delve into the electronic structure and transport mechanisms in materials like graphene and tungsten diselenide. By studying phenomena such as electron-hole pair tunneling and grain boundary behavior, Peter aims to contribute to fundamental understanding in nanotechnology and its applications. His work seeks to leverage insights from advanced theoretical models and experimental data to drive innovation in material sciences.",
-          "font_awesome_icon": "fas fa-atom"
+          "research_interest_title": "Quantum Devices and Current Flow Prediction",
+          "research_interest_long_description": "Peter's research is at the intersection of quantum physics and machine learning, specifically in predictive modeling of current flow in advanced quantum devices. He is particularly intrigued by developing ML algorithms capable of simulating and predicting the behaviors of quantum systems, including the efficient mapping of circuitry shapes and topologies. By using these cutting-edge computational methods, Peter aspires to unlock new understandings of quantum transport phenomena, enabling advancements in nanoscale technology and innovation.",
+          "font_awesome_icon": "fas fa-microchip"
         },
         {
-          "research_interest_title": "Nanotechnology and Quantum Transport",
-          "research_interest_long_description": "Peter explores the intricate relationship between nanotechnology and quantum transport mechanisms, with a keen eye on how nanoscale structures can influence the behavior of charge carriers. His research methodology involves employing first principles density functional theory to analyze the transport properties of various nanostructures. By focusing on the conductive properties of grain boundaries in graphene, Peter is dedicated to revealing how these nanoscale features can be engineered to enhance electronic performance in quantum devices. His ambition is to pave the way for innovative applications in nanoelectronics and quantum information processing.",
-          "font_awesome_icon": "fas fa-microchip"
+          "research_interest_title": "Condensed Matter and 2D Materials",
+          "research_interest_long_description": "With a strong foundation in condensed matter physics, Peter investigates the properties and applications of two-dimensional materials, such as graphene and transition metal dichalcogenides. His work emphasizes the electronic and transport characteristics of these materials, particularly at the nanoscale. By employing first-principles computational techniques, Peter examines the role of defects, grain boundaries, and heterostructures in modulating electrical properties. His aim is to contribute to the growing field of nanotechnology by advancing the understanding of 2D materials for future electronic applications.",
+          "font_awesome_icon": "fas fa-layer-group"
         }
       ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
     }
   },
   {
@@ -87,20 +99,24 @@
       "research_interests": [
         {
           "research_interest_title": "Black Hole Imaging",
-          "research_interest_long_description": "Ra\u00fal is deeply engaged in the field of black hole physics, focusing on the imaging of black holes and understanding the complexities that arise from this fundamental aspect of the universe. His research includes exploring new physics beyond General Relativity that could alter the observable features of black holes. Through innovative approaches and advanced observational techniques, he aims to enhance our understanding of these cosmic phenomena, particularly the resulting implications for frameworks such as horizonless spacetimes. Employing machine learning methods in his analysis, he seeks to unveil the mysteries surrounding black holes as captured in high-resolution images.",
-          "font_awesome_icon": "fas fa-image"
+          "research_interest_long_description": "Ra\u00fal is dedicated to understanding the complex nature of black holes through advanced imaging techniques. His work involves examining the features of black holes and horizonless spacetimes, particularly focusing on how new physics beyond General Relativity can affect these images. By utilizing machine learning methods, he aims to enhance the analysis of observational data from radio telescope arrays, which can significantly improve our interpretations of black hole characteristics. His goal is to contribute to the comprehension of singularities and their implications in modern physics.",
+          "font_awesome_icon": "fas fa-camera"
         },
         {
-          "research_interest_title": "Quantum Gravity and Singularity Regularization",
-          "research_interest_long_description": "Ra\u00fal's work delves into the fundamental aspects of quantum gravity, particularly around the concept of singularity regularization. This involves addressing the challenges posed by singularities in the fabric of space-time and finding solutions that can accommodate the complexities introduced by quantum mechanics. Ra\u00fal is keen to explore how machine learning techniques can be leveraged to analyze data and potentially reveal insights into singularity behavior under various theoretical frameworks. His research seeks to bridge the gap between theoretical physics and observed phenomena, leading to a better comprehension of fundamental principles governing the universe.",
-          "font_awesome_icon": "fas fa-cog"
+          "research_interest_title": "Machine Learning in Physics",
+          "research_interest_long_description": "Ra\u00fal is exploring the intersection of machine learning and physics, particularly in the realm of data analysis for astrophysics. He is interested in employing machine learning techniques for image and pattern recognition in interferometric data related to black holes. His focus is on effectively analyzing black hole images to extract meaningful information that could lead to new insights in observational astronomy. Ra\u00fal envisions leveraging these techniques to address some open questions in black hole physics, enhancing the collaborative efforts within the research community.",
+          "font_awesome_icon": "fas fa-brain"
         },
         {
-          "research_interest_title": "Machine Learning in Interferometric Data Analysis",
-          "research_interest_long_description": "Ra\u00fal is particularly interested in applying machine learning and artificial intelligence techniques to the analysis of interferometric data. This includes processing and interpreting data from arrays, such as the Event Horizon Telescope, to extract meaningful insights regarding black hole images. His objective is to employ advanced pattern recognition techniques that can enhance data quality and lead to more precise imaging of black holes. By collaborating with experts in ML and AI, he aims to push the boundaries of data analysis in astrophysics, ultimately contributing to the understanding of how we visualize and comprehend black holes.",
-          "font_awesome_icon": "fas fa-database"
+          "research_interest_title": "Quantum Gravity and Regularization",
+          "research_interest_long_description": "Ra\u00fal is involved in research regarding the fundamental aspects of black hole physics, particularly the implications of quantum gravity. His work focuses on understanding singularity regularization and its effects on black hole behavior. By studying these concepts, he aims to bridge gaps in theoretical physics and provide a clearer understanding of singularities within the framework of quantum mechanics. Ra\u00fal is passionate about integrating innovative techniques to further this research and contribute valuable knowledge to the scientific community.",
+          "font_awesome_icon": "fas fa-theater-masks"
         }
       ]
+    },
+    "Contributions": {
+      "Title": "Data challenges for black-hole image reconstruction and feature identification",
+      "Url": "https://indico.nbi.ku.dk/event/2067/contributions/15516/"
     }
   },
   {
@@ -108,25 +124,29 @@
     "Name": "Ka Hei Choi",
     "Seniority/Role": "PhD student",
     "Affiliation": "Ludwig Maximilian University of Munich",
-    "ORCID": null,
+    "ORCID": "",
     "researcher_badges": {
       "research_interests": [
         {
           "research_interest_title": "Graph Neural Networks in Physics",
-          "research_interest_long_description": "Ka Hei is deeply interested in exploring how graph neural networks can be utilized within theoretical and computational physics. He aims to bridge this emerging field with traditional physics research areas, particularly focusing on the application of machine learning methods to understand complex phenomena such as the formation of primordial black holes. His goal is to leverage graph neural networks to analyze and interpret data from simulations in high-energy physics, ultimately contributing to more profound insights in the field.",
+          "research_interest_long_description": "Ka Hei is exploring the application of graph neural networks in theoretical and computational physics. His focus includes how these advanced machine learning techniques can enhance understanding of complex physical systems, particularly within the realm of high-energy physics. He aims to connect graph representations of physical data to derive insights and patterns in areas such as gravitational collapse and black hole physics. As Ka Hei delves deeper, he is eager to share findings and collaborate with others in the field to push the boundaries of current research methodologies.",
           "font_awesome_icon": "fas fa-network-wired"
         },
         {
-          "research_interest_title": "Advancements in Neural Network Architecture",
-          "research_interest_long_description": "Ka Hei is passionate about the latest advancements in artificial neural network architectures, particularly their substantial potential in various scientific domains. He seeks to investigate the strengths of these architectures and their promising applications in both theoretical and computational aspects of physics. By understanding the capabilities of modern neural networks, he hopes to identify innovative approaches to solving complex problems in high-energy physics and cosmology.",
+          "research_interest_title": "Advancements in Neural Network Architectures",
+          "research_interest_long_description": "Ka Hei is particularly interested in the latest developments in artificial neural network architectures that show significant potential for various applications. He seeks to understand the strengths of these architectures and what makes them promising tools for addressing complex problems in physics and beyond. By staying abreast of emerging technologies and breakthroughs in this area, he is motivated to assess how these advancements can be integrated into his research, especially in studying phenomena in cosmology and biophysics.",
           "font_awesome_icon": "fas fa-brain"
         },
         {
-          "research_interest_title": "Machine Learning in Biophysics and Cosmology",
-          "research_interest_long_description": "Ka Hei is eager to connect with potential collaborators who share his interest in applying machine learning methods in the fields of biophysics and cosmology. His current research involves using numerical and simulation data to create 3D images that can offer deeper insights into cosmic events and biophysical processes. He is keen on sharing his findings on black hole formation and expanding the dialogue around the integration of machine learning into these fascinating areas of research.",
-          "font_awesome_icon": "fas fa-project-diagram"
+          "research_interest_title": "Machine Learning in Cosmology and Biophysics",
+          "research_interest_long_description": "Ka Hei is passionate about utilizing machine learning methods to explore and analyze data in cosmology and biophysics. He works with numerical simulations to convert scalar field data into tangible 3D images, enabling deeper insights into the universe's formation and the behavior of primordial black holes. By leveraging machine learning techniques, he aspires to uncover new patterns and correlations within complex datasets, fostering collaborative opportunities with researchers who share similar interests in these interdisciplinary fields.",
+          "font_awesome_icon": "fas fa-database"
         }
       ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
     }
   },
   {
@@ -134,25 +154,29 @@
     "Name": "Theodoros Diamantopoulos",
     "Seniority/Role": "Post-doc",
     "Affiliation": "Technical University of Denmark",
-    "ORCID": null,
+    "ORCID": "",
     "researcher_badges": {
       "research_interests": [
         {
           "research_interest_title": "Machine Learning in Scientific Discovery",
-          "research_interest_long_description": "Theodoros is focused on integrating machine learning (ML) methods into various scientific fields, particularly emphasizing their application in accelerating scientific discovery. He aims to leverage modern ML algorithms to analyze complex datasets, identify patterns, and derive insights that can lead to novel scientific advancements. By bridging the gap between traditional scientific methodologies and contemporary ML techniques, Theodoros seeks to enhance the efficiency and effectiveness of research across multiple disciplines.",
-          "font_awesome_icon": "fas fa-microscope"
-        },
-        {
-          "research_interest_title": "Physics-Informed Neural Networks",
-          "research_interest_long_description": "Theodoros has a keen interest in Physics-Informed Neural Networks (PINNs), a transformative approach that intertwines neural networks with the principles of physics to solve complex problems in scientific computing. His research endeavors involve developing innovative PINN models that can accurately simulate physical phenomena such as heat and mass transfer as well as fluid dynamics. His work not only aims to advance the state of the art in computational techniques but also to produce more reliable and interpretable results by incorporating fundamental physical laws into the training processes of these networks.",
+          "research_interest_long_description": "Theodoros focuses on integrating machine learning methods into the realm of scientific discovery. He is particularly interested in how these advanced algorithms can enhance the understanding and prediction of complex physical phenomena. His work aims to bridge the gap between theoretical physics and computational techniques, enabling more efficient data analysis and innovative solutions to scientific challenges. Through the application of these methods, he hopes to contribute to significant breakthroughs in various scientific fields.",
           "font_awesome_icon": "fas fa-brain"
         },
         {
-          "research_interest_title": "Computational Fluid Dynamics",
-          "research_interest_long_description": "Theodoros is passionate about the field of computational fluid dynamics (CFD), where he applies numerical analysis and algorithms to solve and analyze problems that involve fluid flows. His research often intersects with heat and mass transfer, exploring how these phenomena impact fluid behavior in various applications. Through his work, Theodoros aims to develop advanced simulation techniques that provide deeper insights into fluid dynamics challenges, paving the way for optimization in engineering and industrial processes.",
+          "research_interest_title": "Physics-Informed Neural Networks (PINNs)",
+          "research_interest_long_description": "Theodoros has a keen interest in Physics-Informed Neural Networks (PINNs), a cutting-edge approach that combines neural networks with physical laws. This methodology allows for the solution of differential equations that govern physical systems while enforcing compliance with underlying physics during the training process. By leveraging PINNs, he aims to enhance modeling accuracy and efficiency in solving complex problems related to heat and mass transfer and fluid dynamics, contributing to more reliable simulations and predictive modeling techniques.",
+          "font_awesome_icon": "fas fa-cogs"
+        },
+        {
+          "research_interest_title": "Computational Fluid Dynamics (CFD)",
+          "research_interest_long_description": "Theodoros specializes in Computational Fluid Dynamics (CFD), focusing on the simulation and analysis of fluid flows. With a strong background in heat and mass transfer, he integrates numerical methods with physical modeling to study the behavior of fluids in various conditions. His research seeks to develop robust CFD techniques that can be applied to real-world engineering problems, thereby improving design and efficiency in industries ranging from aerospace to biomedical engineering. By advancing CFD methodologies, he aspires to make contributions that will lead to innovations in technology and enhanced problem-solving capabilities.",
           "font_awesome_icon": "fas fa-water"
         }
       ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
     }
   },
   {
@@ -160,25 +184,29 @@
     "Name": "atefe ebrahimi",
     "Seniority/Role": "post-doc",
     "Affiliation": "SISSA",
-    "ORCID": null,
+    "ORCID": "",
     "researcher_badges": {
       "research_interests": [
         {
           "research_interest_title": "Machine Learning for Structured Data",
-          "research_interest_long_description": "Atefe is particularly interested in exploring machine learning methods tailored for structured and numerical data. She aims to develop algorithms that enhance the understanding and analysis of complex datasets, facilitating better decision-making processes in various applications. By focusing on structured data, Atefe seeks to bridge the gap between traditional data analysis techniques and modern machine learning approaches. Her work may involve creating models that can efficiently process numerical input, generating predictive insights, and improving data representation.",
+          "research_interest_long_description": "Atefe is particularly interested in the development and application of machine learning methods tailored for structured and numerical data. She focuses on enhancing the interpretability and efficiency of these techniques, aiming to unlock new insights and patterns hidden within complex datasets. By integrating statistical analysis with machine learning algorithms, Atefe strives to advance the field in practical applications across various domains including physics and data-driven sciences.",
           "font_awesome_icon": "fas fa-database"
         },
         {
           "research_interest_title": "Condensed Matter Physics",
-          "research_interest_long_description": "In addition to her machine learning interests, Atefe has a strong foundation in condensed matter physics. She is fascinated by the properties and behaviors of matter in solid and liquid states, particularly at the atomic and molecular levels. This research area encompasses a variety of topics such as superconductivity, magnetism, and crystallography. By utilizing machine learning, she hopes to model complex interactions within condensed matter systems, potentially uncovering new phenomena and enhancing material design for technological applications.",
+          "research_interest_long_description": "Atefe's research in condensed matter physics encompasses a range of topics, including quantum phenomena and material properties at the nanoscale. Through her work, she explores the interactions between particles in condensed states and how these can be manipulated to create novel materials with unique characteristics. She seeks to bridge the gap between theoretical frameworks and experimental validation, thereby contributing to the ongoing advancement in this fascinating field.",
           "font_awesome_icon": "fas fa-flask"
         },
         {
-          "research_interest_title": "Integrating Physics with Machine Learning",
-          "research_interest_long_description": "Atefe aims to synthesize her knowledge of physics and machine learning to innovate within both fields. She is driven by the potential of using machine learning algorithms to analyze physical systems and theoretical models more effectively. This interdisciplinary approach allows her to tackle complex problems where traditional methodologies may fall short. Atefe is committed to creating predictive models that can simulate and understand physical behaviors, providing new insights into existing theories and possibly leading to groundbreaking discoveries.",
-          "font_awesome_icon": "fas fa-bolt"
+          "research_interest_title": "Interdisciplinary Applications of ML and Physics",
+          "research_interest_long_description": "Atefe aims to combine her expertise in machine learning with the challenges faced in condensed matter physics. By leveraging machine learning tools, she endeavors to develop innovative solutions to complex physical problems, such as phase transitions and material discovery. This interdisciplinary approach not only enhances the understanding of physical systems but also paves the way for new technological advancements that rely on these interactions. She is committed to fostering collaboration between machine learning and physical sciences.",
+          "font_awesome_icon": "fas fa-atom"
         }
       ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
     }
   },
   {
@@ -190,21 +218,25 @@
     "researcher_badges": {
       "research_interests": [
         {
-          "research_interest_title": "Machine Learning in Time Series Analysis",
-          "research_interest_long_description": "Sergey is exploring the application of modern machine learning techniques to time series analysis, particularly within the context of quantum measurements and metrology. By leveraging advanced ML methods, he aims to enhance the understanding and prediction of complex time-dependent behaviors in quantum systems. This research interest not only seeks to refine measurement accuracy but also to uncover deeper insights into the dynamic processes governing quantum states. Sergey believes that integrating machine learning into traditional analysis will open new avenues for ensuring precise measurements and developing innovative sensor technologies.",
+          "research_interest_title": "Machine Learning in Quantum Measurements",
+          "research_interest_long_description": "Sergey is exploring the integration of modern machine learning techniques into quantum measurement systems. His focus lies in using machine learning to enhance the precision and efficiency of quantum measurements, particularly in situations where traditional methods may fall short. By applying advanced data analysis and modeling approaches, he aims to optimize the extraction of quantum information from physical systems, pushing the boundaries of what's achievable in quantum metrology.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Gaussian Processes for Time Series Analysis",
+          "research_interest_long_description": "Sergey is particularly interested in the application of Gaussian processes for analyzing time series data in physics experiments. This method allows for flexible modeling of complex data patterns, which is essential for characterizing phenomena that vary over time. By leveraging Gaussian processes, Sergey seeks to improve the understanding of dynamic systems and enhance predictive models, ultimately contributing to more reliable experimental outcomes in fields such as structural mechanics.",
           "font_awesome_icon": "fas fa-chart-line"
         },
         {
-          "research_interest_title": "Quantum Measurements and Metrology",
-          "research_interest_long_description": "Sergey has a keen interest in the field of quantum measurements and metrology, where he investigates the boundaries of precision in physical measurements at the quantum level. His research delves into how cutting-edge techniques, such as squeezed light and thermal noise analysis, can be harnessed to significantly enhance measurement accuracy. By understanding the fundamental limitations and noise types affecting measurement devices, Sergey aims to contribute to the development of quantum sensors with unprecedented performance, transforming fields as diverse as gravitational wave detection and quantum computing.",
-          "font_awesome_icon": "fas fa-microscope"
-        },
-        {
-          "research_interest_title": "Structural Mechanics and Materials Engineering",
-          "research_interest_long_description": "In the realm of structural mechanics, Sergey explores how the engineering of stress and strain in materials can lead to significant enhancements in their performance, especially for micromechanical systems. His work focuses on the interplay between mechanical properties and quantum measurements, investigating how designs incorporating stress can optimize the vibrational characteristics of materials. This research not only promotes innovation in material science but also directly influences applications in precision sensing and quantum technology, paving the way for next-gen mechanical devices that offer improved sensitivity under various operational conditions.",
+          "research_interest_title": "Mechanical Dissipation in Quantum Sensors",
+          "research_interest_long_description": "Sergey focuses on understanding mechanical dissipation in quantum sensors, a critical factor that impacts their performance. By investigating how elastic strain engineering can minimize dissipation, he aims to develop sensors with superior sensitivity and precision. His research bridges quantum mechanics and materials science, providing insights that could lead to breakthroughs in developing high-performance sensing technologies that operate at the quantum level.",
           "font_awesome_icon": "fas fa-cogs"
         }
       ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
     }
   },
   {
@@ -212,25 +244,29 @@
     "Name": "Christa Gall",
     "Seniority/Role": "Associate Prof.",
     "Affiliation": "DARK / Niels Bohr Institute / UCPH",
-    "ORCID": null,
+    "ORCID": "",
     "researcher_badges": {
       "research_interests": [
         {
           "research_interest_title": "Machine Learning in Astrophysics",
-          "research_interest_long_description": "Christa is passionate about incorporating machine learning (ML) methods into astrophysical research. She recognizes the potential of ML to enhance data analysis, enabling the exploration of larger parameter spaces and improving the classification of astrophysical objects. By leveraging advanced algorithms, Christa aims to gain deeper insights from complex astrophysical data and improve model interpretations. Her goal is to utilize ML techniques to make discoveries that were previously unattainable, pushing the boundaries of what is possible in astrophysics.",
-          "font_awesome_icon": "fas fa-rocket"
+          "research_interest_long_description": "Christa is fascinated by the application of machine learning (ML) techniques in the field of astrophysics. She recognizes the potential of ML to enhance the interpretation of complex astrophysical data and improve our understanding of celestial phenomena. By utilizing ML algorithms, she seeks to explore larger parameter spaces and develop more effective methods for classifying different astrophysical objects. Christa believes that leveraging these innovative techniques will lead to new insights and revelations in the study of the universe.",
+          "font_awesome_icon": "fas fa-robot"
         },
         {
-          "research_interest_title": "Uncertainty Estimation in Astrophysics",
-          "research_interest_long_description": "Christa is focused on the importance of uncertainty estimation in the interpretation of astrophysical data. Given the inherent complexities and variabilities in measurements, understanding uncertainties is critical for drawing reliable conclusions. She aims to develop methodologies that effectively quantify and incorporate uncertainties into ML algorithms, thus enhancing the precision of astrophysical analyses. This focus not only aids in improving data fidelity but also contributes to the overall robustness of astrophysical modeling.",
+          "research_interest_title": "Uncertainty Estimation in Astrophysical Measurements",
+          "research_interest_long_description": "In her research, Christa places a strong emphasis on the importance of estimating uncertainties in astrophysical measurements. She understands that accurately quantifying uncertainties is crucial for making reliable interpretations and drawing sound conclusions from observational data. Christa is eager to learn more about advanced statistical methods and ML approaches that can improve uncertainty estimation, ultimately benefiting the broader astrophysics community. Her work aims to bridge the gap between theoretical models and real-world data, ensuring that uncertainties are properly accounted for in scientific studies.",
           "font_awesome_icon": "fas fa-calculator"
         },
         {
-          "research_interest_title": "Collaborative Research in ML Techniques",
-          "research_interest_long_description": "Christa is eager to establish collaborations with fellow researchers interested in integrating machine learning techniques within astrophysics. By fostering partnerships, she seeks to combine expertise and share knowledge, enabling innovative approaches to tackle complex problems in her field. Christa believes that collaborative research can lead to novel methodologies and breakthroughs, particularly in the application of ML for data classification and analysis. Her initiatives are geared towards creating a network of researchers committed to pushing the envelope in astrophysical research through ML.",
+          "research_interest_title": "Collaboration in Astrophysics Research",
+          "research_interest_long_description": "Christa is keen on finding potential collaborators for future projects focusing on machine learning techniques in astrophysics. She believes that interdisciplinary cooperation is a key component in advancing scientific research and is actively seeking partnerships with experts in various fields. By collaborating with fellow researchers, Christa aims to combine different perspectives, methodologies, and expertise to tackle complex astrophysical challenges. Her ultimate goal is to contribute to transformative research that pushes the boundaries of our understanding of the universe.",
           "font_awesome_icon": "fas fa-users"
         }
       ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
     }
   },
   {
@@ -242,255 +278,25 @@
     "researcher_badges": {
       "research_interests": [
         {
-          "research_interest_title": "Machine Learning in Astrophysics",
-          "research_interest_long_description": "Christian is focused on leveraging machine learning methods, particularly normalizing flows, CNNs, GNNs, Transformers, GANs, and Diffusion models for predicting probability density functions, which is crucial in analyzing high-energy neutrino interactions and cosmic ray detection. He is interested in resource-constrained computing techniques that allow for real-time processing on low-power hardware, making the application of complex algorithms more feasible in field settings. His work aims to provide new insights into the underlying physics of astroparticle events, enhancing our understanding of these phenomena.",
-          "font_awesome_icon": "fas fa-robot"
+          "research_interest_title": "AI Methods for Enhanced Performance",
+          "research_interest_long_description": "Christian is focused on exploring AI methodologies, particularly normalizing flows for probability density function prediction. He also investigates various network architectures, including Convolutional Neural Networks (CNNs), Graph Neural Networks (GNNs), Transformers, Generative Adversarial Networks (GANs), and Diffusion Models. His goal is to identify the most effective architectures for real-time applications on resource-constrained hardware, which can significantly improve processing efficiency while maintaining performance standards in machine learning.",
+          "font_awesome_icon": "fas fa-brain"
         },
         {
-          "research_interest_title": "Astroparticle Physics and Neutrino Detection",
-          "research_interest_long_description": "Christian's research encompasses astroparticle physics, with an emphasis on high and ultra-high energy neutrinos and cosmic rays. He investigates novel detection techniques for these elusive particles, particularly through radio detection methods such as Askaryan emission in polar ice. His publications include detailed forecasts on neutrino-nucleon cross-sections and methodologies to improve detection accuracy. By studying the propagation of radio waves and their interactions with neutrinos, he aims to enhance our capability to discover and characterize UHE neutrinos, potentially leading to groundbreaking revelations in particle physics.",
+          "research_interest_title": "Astroparticle Physics and Neutrinos",
+          "research_interest_long_description": "Christian's research in Astroparticle Physics centers around high-energy and ultra-high-energy neutrinos, as well as cosmic rays. He is particularly interested in new detection techniques that can identify elusive high-energy neutrinos, focusing on methods such as in-ice radio detection. His work aims to enhance understanding of neutrino interactions, nucleon cross sections, and the flavor composition of ultra-high-energy cosmic neutrinos, contributing to the broader knowledge of fundamental physics and the universe.",
+          "font_awesome_icon": "fas fa-satellite"
+        },
+        {
+          "research_interest_title": "Innovative Detection Techniques",
+          "research_interest_long_description": "Christian is dedicated to developing cutting-edge detection techniques for high-energy neutrinos. His research includes modeling the propagation of radio pulses in ice to optimize the extraction of information such as neutrino energy and direction. By employing state-of-the-art computational methods and first-principle calculations, he aims to improve the signals detected from neutrino interactions, greatly aiding in the quest for new physics and enhancing the capabilities of current and future neutrino observatories.",
           "font_awesome_icon": "fas fa-microscope"
-        },
-        {
-          "research_interest_title": "Computational Techniques for Particle Physics",
-          "research_interest_long_description": "In addition to his focus on machine learning and astroparticle physics, Christian explores computational techniques that improve the efficiency and precision of particle detection. He is particularly interested in developing open-source tools for simulating the effects of birefringence in ice on radio signals from neutrinos. His work also includes detailed modeling that integrates various parameters influencing neutrino detection, thus paving the way for next-generation experiments. Christian's efforts aim to deliver reliable methodologies that can be utilized in real-world applications, pushing the boundaries of particle physics research.",
-          "font_awesome_icon": "fas fa-calculator"
         }
       ]
-    }
-  },
-  {
-    "ID": 44,
-    "Name": "Sune Halkj\u00e6r",
-    "Seniority/Role": "Masters student.",
-    "Affiliation": "NBI",
-    "ORCID": null,
-    "researcher_badges": {
-      "research_interests": [
-        {
-          "research_interest_title": "Deep Learning Architectures",
-          "research_interest_long_description": "Sune is focused on exploring advanced deep learning architectures, particularly Recurrent Neural Networks (RNNs) and their complex variations such as GRUs, LSTMs, and Echo State Networks. He aims to deepen his understanding of these models to better tackle nonlinear time series data, which is crucial for many applications including climate modelling and forecasting. His research looks into how these models can be optimized and adapted for specific use cases, emphasizing their practical implications in analyzing sequential data.",
-          "font_awesome_icon": "fas fa-brain"
-        },
-        {
-          "research_interest_title": "Stochastic Systems & Climate Modelling",
-          "research_interest_long_description": "Sune is passionate about the intersection of physics and machine learning, specifically in the realm of complex and stochastic systems. His interest lies in applying time series analysis techniques to climate modelling, where he investigates the unpredictability and complexity of climate systems. By integrating machine learning methodologies with traditional physics concepts, he aims to enhance predictive models that can account for intricate environmental dynamics and uncertainties, contributing to a more accurate understanding of climate phenomena.",
-          "font_awesome_icon": "fas fa-globe"
-        },
-        {
-          "research_interest_title": "Qualitative Approaches to Machine Learning",
-          "research_interest_long_description": "Sune aspires to gain qualitative insights into more complex and niche machine learning concepts. His goal is to explore newly developing methodologies that can complement quantitative analysis, particularly in time series contexts. By engaging with experts and participating in workshops, he hopes to uncover innovative perspectives on the theoretical underpinnings of machine learning models, ultimately aiming to enhance his overall approach in research and application within both machine learning and physics fields.",
-          "font_awesome_icon": "fas fa-lightbulb"
-        }
-      ]
-    }
-  },
-  {
-    "ID": 30,
-    "Name": "Chandana Hegde",
-    "Seniority/Role": "PhD student",
-    "Affiliation": "DAWN/DTU Space",
-    "ORCID": null,
-    "researcher_badges": {
-      "research_interests": [
-        {
-          "research_interest_title": "Machine Learning in Radio Astronomy",
-          "research_interest_long_description": "Chandana is focused on leveraging machine learning to enhance data analysis in radio astronomy. Her primary goal is to improve the accuracy and efficiency of data handling, particularly in identifying patterns and anomalies within large datasets. By applying various ML techniques, she aims to gain insights that can lead to breakthroughs in understanding astronomical phenomena. Chandana actively seeks to integrate modern AI methodologies into her research, paving the way for innovative approaches in the field.",
-          "font_awesome_icon": "fas fa-rocket"
-        },
-        {
-          "research_interest_title": "Galaxies and Cosmology Research",
-          "research_interest_long_description": "Chandana's work revolves around the study of galaxies, particularly focusing on high redshift Submillimeter Galaxies (SMGs). She conducts multiwavelength analysis to investigate star formation rates and the morphological characteristics of these galaxies. By examining the properties and behaviors of galaxies at varying distances and epochs, she contributes to the broader understanding of cosmic evolution. Her research in this domain provides significant insights into the formation and development of galaxies in the early universe.",
-          "font_awesome_icon": "fas fa-globe"
-        },
-        {
-          "research_interest_title": "Data Analysis Techniques",
-          "research_interest_long_description": "As a PhD student, Chandana is deeply interested in enhancing data analysis techniques that can be applied across various scientific domains. She is keen on exploring how data-driven methodologies can optimize research outcomes in both academia and industry. By participating in workshops and collaborating with experts, she aims to acquire skills that will not only benefit her current projects but also enrich her understanding of the evolving landscape of data science. Her aspiration is to be at the forefront of integrating advanced technologies in her field.",
-          "font_awesome_icon": "fas fa-database"
-        }
-      ]
-    }
-  },
-  {
-    "ID": 22,
-    "Name": "Kasper Heintz",
-    "Seniority/Role": "Assistant Prof.",
-    "Affiliation": "NBI",
-    "ORCID": "0000-0002-9389-7413",
-    "researcher_badges": {
-      "research_interests": [
-        {
-          "research_interest_title": "Machine Learning in Astronomy",
-          "research_interest_long_description": "Kasper is interested in the application of machine learning (ML) techniques for identifying and classifying transient astronomical events in real-time. He seeks to explore the effectiveness of ML models in dealing with large datasets, particularly those that are temporally evolving. His goal is to improve source detection and classification, enabling more efficient studies in astrophysics and enhancing our understanding of phenomena such as gamma-ray bursts and other transient sources.",
-          "font_awesome_icon": "fas fa-robot"
-        },
-        {
-          "research_interest_title": "Source Population Studies",
-          "research_interest_long_description": "Kasper focuses on source population studies in astrophysics, aiming to understand the statistical properties of various astronomical objects. He is particularly interested in the interplay between statistical methods and physical understanding within this context. By examining how to appropriately combine statistical learning with theoretical models in astrophysics, he aims to delineate the boundaries governing the study of celestial populations across different cosmic times.",
-          "font_awesome_icon": "fas fa-chart-line"
-        },
-        {
-          "research_interest_title": "Astrophysical Gas Content and Evolution",
-          "research_interest_long_description": "Kasper investigates the gas content in galaxies, particularly the role of neutral atomic hydrogen (H i) in galaxy evolution. His work involves modeling how H i gas mass varies with cosmic time and its relationship with other baryonic components, such as stars and molecular gas. By analyzing data from high-redshift galaxies, he aims to unveil crucial insights regarding the formation and evolution of galaxies through varying cosmic epochs.",
-          "font_awesome_icon": "fas fa-star"
-        }
-      ]
-    }
-  },
-  {
-    "ID": 39,
-    "Name": "Joachim Hermansen",
-    "Seniority/Role": "Research Assistant",
-    "Affiliation": "Technical University of Denmark",
-    "ORCID": "0009-0002-9864-0542",
-    "researcher_badges": {
-      "research_interests": [
-        {
-          "research_interest_title": "Machine Learning in Dynamical Systems",
-          "research_interest_long_description": "Joachim is exploring the intersection of machine learning and dynamical systems, particularly in the context of dynamical magnetic systems. He aims to apply various machine learning methods to enhance the understanding and analysis of these complex systems. His focus includes leveraging deep learning techniques, like convolutional neural networks, to analyze and interpret dynamic behaviors in magnetic materials, contributing to advancements in material science and engineering.",
-          "font_awesome_icon": "fas fa-brain"
-        },
-        {
-          "research_interest_title": "Automatic Image Analysis",
-          "research_interest_long_description": "Joachim specializes in automatic image analysis, particularly through the use of convolutional neural networks (CNNs). He is interested in developing techniques that can automatically process and analyze image data obtained from experiments in dynamical magnetic systems. This research is crucial for improving data accuracy and efficiency in the analysis of magnetic phenomena, enabling faster and more precise scientific discoveries.",
-          "font_awesome_icon": "fas fa-images"
-        },
-        {
-          "research_interest_title": "Physics-Informed Machine Learning",
-          "research_interest_long_description": "Joachim is intrigued by the concept of physics-informed machine learning, which integrates physical laws and principles into machine learning algorithms. He believes that incorporating physical insights can lead to more robust and interpretable models in the study of dynamical systems. This approach aims to bridge the gap between physics and data-driven analysis, providing powerful tools for simulating and understanding complex physical behaviors.",
-          "font_awesome_icon": "fas fa-cogs"
-        }
-      ]
-    }
-  },
-  {
-    "ID": 45,
-    "Name": "Benjamin Jaeger",
-    "Seniority/Role": "Associate Professor",
-    "Affiliation": "University of Southern Denmark",
-    "ORCID": "0000-0003-2930-609X",
-    "researcher_badges": {
-      "research_interests": [
-        {
-          "research_interest_title": "Particle Physics and Lattice QCD",
-          "research_interest_long_description": "Benjamin is deeply interested in the field of particle physics, particularly focusing on Lattice Quantum Chromodynamics (Lattice QCD). This area of research examines the strong interactions among quarks and gluons, using lattice formulations to perform non-perturbative calculations. Benjamin's work aims to advance the understanding of fundamental particles and their interactions, contributing to the broader field of high-energy physics. Through computational methods and theoretical investigations, he seeks to unravel the complexities of the strong force, a key aspect of the Standard Model of particle physics. His insights in this domain are crucial for both theoretical advancements and potential experimental verification.",
-          "font_awesome_icon": "fas fa-atom"
-        },
-        {
-          "research_interest_title": "Advanced Machine Learning Techniques",
-          "research_interest_long_description": "Benjamin's research interests also extend into the realm of machine learning, with a specific focus on Kernel Ridge Regression and Real Normalizing Flows. He explores how these techniques can be applied to complex problem-solving scenarios, particularly in the context of inverse problems where data from discrete observables is analyzed. By integrating advanced machine learning methods, Benjamin aims to enhance the analytical capabilities of particle physics research, leading to improved interpretations of experimental data and simulations. His approach combines theoretical principles with computational efficiency, making significant contributions to both fields.",
-          "font_awesome_icon": "fas fa-brain"
-        },
-        {
-          "research_interest_title": "High-Performance Computing in Scientific Research",
-          "research_interest_long_description": "In order to tackle the computational challenges presented by both Lattice QCD and advanced machine learning techniques, Benjamin is highly engaged in high-performance computing (HPC). He leverages modern computational resources to execute complex calculations that are critical for simulations and data analysis in particle physics. His expertise in optimizing algorithms and utilizing parallel processing enables more efficient use of computational power, which is necessary for addressing the rapidly growing data sets and complex models present in today's research landscape. Benjamin's commitment to HPC ensures that his contributions remain at the cutting edge of scientific discovery.",
-          "font_awesome_icon": "fas fa-cogs"
-        }
-      ]
-    }
-  },
-  {
-    "ID": 10,
-    "Name": "markus jochum",
-    "Seniority/Role": "professor",
-    "Affiliation": "NBI",
-    "ORCID": "0000-0003-2690-3139",
-    "researcher_badges": {
-      "research_interests": [
-        {
-          "research_interest_title": "Marine Carbon Cycle Dynamics",
-          "research_interest_long_description": "Markus is deeply interested in the interactions between marine carbon removal strategies and atmospheric carbon dioxide concentrations. His research investigates how oceanic processes can be influenced by different carbon removal techniques, and whether these techniques can effectively reduce atmospheric CO2 levels. He explores the potential repercussions on marine ecosystems from introducing carbon removal technologies and speculates on innovative approaches that could enhance the efficiency of such systems. Markus's work involves modeling scenarios that simulate various impacts, contributing to a better understanding of both marine life and climate change.",
-          "font_awesome_icon": "fas fa-leaf"
-        },
-        {
-          "research_interest_title": "Oceanic Modeling and Climate Variability",
-          "research_interest_long_description": "Markus focuses on the simulation of climate models, particularly in relation to the Indian summer monsoon and the Central Indian Ocean Mode. His work assesses how modern climate models, including the Community Earth System Model (CESM), capture essential dynamics of the ocean-atmosphere system. He aims to identify gaps in these models which lead to inaccurate predictions of climate patterns, such as the Madden-Julian Oscillation and intraseasonal variabilities. By enhancing the representation of ocean dynamics, he aims to improve the reliability of climate forecasts in tropical regions.",
-          "font_awesome_icon": "fas fa-water"
-        },
-        {
-          "research_interest_title": "Turbulent Mixing in Ocean Layers",
-          "research_interest_long_description": "Markus investigates the complexities of turbulent mixing within the ocean's mixed layer, emphasizing near-inertial wave (NIW) induced mixing processes. His research aims to refine the representation of turbulent mixing in climate models and understand how variations in these processes can affect sea surface temperature biases and ultimately influence broader climate patterns. By employing field observations and comparative analyses of different mixing schemes, Markus seeks to improve our comprehension of ocean dynamics and their critical role in climate modeling.",
-          "font_awesome_icon": "fas fa-swimmer"
-        }
-      ]
-    }
-  },
-  {
-    "ID": 41,
-    "Name": "Petroula Karacosta",
-    "Seniority/Role": "Research Assistant",
-    "Affiliation": "Niels Bohr Institute, University of Copenhagen",
-    "ORCID": "0009-0003-2397-9135",
-    "researcher_badges": {
-      "research_interests": [
-        {
-          "research_interest_title": "Machine Learning in Physics",
-          "research_interest_long_description": "Petroula is deeply interested in the intersection of machine learning and fundamental physics. Her work focuses on creating physics-aware machine learning models that can integrate theoretical concepts with practical applications. By leveraging advanced methodologies, she aims to enhance the predictive capabilities of models used in physics, particularly within the domain of neutron scattering. Petroula believes that the synergy between machine learning and physics can lead to groundbreaking advancements in understanding complex physical phenomena and improve the efficiency of data analysis in scientific research.",
-          "font_awesome_icon": "fas fa-brain"
-        },
-        {
-          "research_interest_title": "Neutron Scattering Techniques",
-          "research_interest_long_description": "Petroula has a strong background in neutron scattering and computational physics, making her well-versed in experimental and theoretical techniques in this area. She is particularly focused on using computational methods to analyze neutron scattering data, aiming to extract meaningful insights about material properties and behaviors. By combining her expertise in computational physics with machine learning, Petroula seeks to push the boundaries of what can be understood through neutron scattering techniques, fostering new discoveries in materials science and condensed matter physics.",
-          "font_awesome_icon": "fas fa-fiber-lent"
-        },
-        {
-          "research_interest_title": "Deep Learning Applications in Science",
-          "research_interest_long_description": "With an evolving interest in deep learning, Petroula is keen on applying deep neural networks to her research projects. She has experience with supervised and unsupervised learning methods and is enthusiastic about exploring the potential of deep learning for tackling complex problems in science. Petroula is particularly inspired by how deep learning can learn intricate patterns from large datasets, which is crucial for advancing scientific inquiry in interdisciplinary fields. She is eager to collaborate with others in the scientific community to develop innovative solutions to challenging research questions using deep learning methodologies.",
-          "font_awesome_icon": "fas fa-layer-group"
-        }
-      ]
-    }
-  },
-  {
-    "ID": 52,
-    "Name": "Leonora Kardum",
-    "Seniority/Role": "Post-doc",
-    "Affiliation": "",
-    "ORCID": "0000-0001-9351-004X",
-    "researcher_badges": {
-      "research_interests": [
-        {
-          "research_interest_title": "Feature Engineering in Machine Learning",
-          "research_interest_long_description": "Leonora is intensely focused on enhancing the methodologies that describe complex datasets through advanced feature engineering. By leveraging statistical properties and computational approaches, she aims to optimize how data features are created, leading to more effective machine learning models. Leonora believes that by refining these methods, particularly in the context of deep learning, she can gain deeper insights into the complex structures of data. This research interest merges her passion for machine learning with her astrophysical background, positioning her at the forefront of data-driven discovery in her field.",
-          "font_awesome_icon": "fas fa-cogs"
-        },
-        {
-          "research_interest_title": "Interpretable Machine Learning",
-          "research_interest_long_description": "In her pursuit of bridging the gap between advanced machine learning techniques and their practical applications, Leonora is particularly interested in the area of interpretable machine learning. This field aims to make the functionality and predictions of complex models more understandable to researchers and practitioners. By focusing on methods that can demystify black-box algorithms, she aspires to contribute to more trustworthy and transparent AI systems, especially in cosmology and astrophysics where data-driven insights are paramount.",
-          "font_awesome_icon": "fas fa-eye"
-        },
-        {
-          "research_interest_title": "Cosmology and Machine Learning Integration",
-          "research_interest_long_description": "Having transitioned from Neutrino Astrophysics to Cosmology, Leonora is dedicated to integrating machine learning techniques with cosmological research. With her strong background in developing ML models for IceCube data, she seeks to explore how these models can be applied to early universe studies. By utilizing a combination of probabilistic models, neural networks, and boosting decision trees, she aims to unravel the complexities of cosmological data, enhancing our understanding of the universe's origins and characteristics through innovative approaches.",
-          "font_awesome_icon": "fas fa-universe"
-        }
-      ]
-    }
-  },
-  {
-    "ID": 8,
-    "Name": "Mads Kristensen",
-    "Seniority/Role": "Previously assistant prof., now principal software engineer",
-    "Affiliation": "NVIDIA",
-    "ORCID": null,
-    "researcher_badges": {
-      "research_interests": [
-        {
-          "research_interest_title": "Accelerated Machine Learning",
-          "research_interest_long_description": "Mads is deeply interested in the field of machine learning, particularly how various ML methods can be optimized and accelerated using GPU technology. With a strong background in computer science, Mads explores how computational efficiencies can enhance database workflows and processing times for complex ML tasks. His research aims to bridge the gap between theoretical MA approaches and practical applications, focusing on speeding up data-intensive processes, improving model accuracy, and enabling real-time decision-making. This pursuit not only contributes to the efficiency of machine learning processes but also opens doors to new methodologies within the field.",
-          "font_awesome_icon": "fas fa-bolt"
-        },
-        {
-          "research_interest_title": "GPU-Accelerated Data Science",
-          "research_interest_long_description": "Mads focuses on leveraging GPU acceleration for data science applications. By utilizing the immense parallel processing power of GPUs, he investigates ways to enhance data analysis workflows, particularly in large datasets. His work encompasses developing novel algorithms that can efficiently utilize GPU architecture, allowing data scientists to derive insights faster than traditional processes. Mads aims to promote best practices in data science, ensuring that the tools and frameworks utilized are maximized for performance and scalability, ultimately transforming how organizations approach data analysis.",
-          "font_awesome_icon": "fas fa-chart-line"
-        },
-        {
-          "research_interest_title": "Collaboration in Computational Physics",
-          "research_interest_long_description": "Mads is passionate about fostering collaboration across physics and computer science domains. He believes that the intersection of these fields can yield groundbreaking advancements, especially in areas that require high computational power. By bringing together experts from different backgrounds, Mads aims to explore new ideas in computational physics that can benefit from machine learning and GPU technology. His efforts are directed towards establishing partnerships that facilitate knowledge exchange and drive innovative research projects, enhancing both theoretical physics studies and practical applications in technology.",
-          "font_awesome_icon": "fas fa-users"
-        }
-      ]
+    },
+    "Contributions": {
+      "Title": "Advancing Ultra-High Energy Neutrino Astronomy through Deep Learning and Differential Programming",
+      "Url": "https://indico.nbi.ku.dk/event/2067/contributions/15518/"
     }
   }
 ]
