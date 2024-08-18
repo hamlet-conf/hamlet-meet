@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Typography, Paper, Button, Box, Accordion, AccordionSummary, AccordionDetails, Fade, Slide, CircularProgress } from '@mui/material';
+import { Typography, Paper, Button, Box, Accordion, AccordionSummary, AccordionDetails, Fade, Slide, CircularProgress, Divider } from '@mui/material';
 import ArrowBack from '@mui/icons-material/ArrowBack';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ReactMarkdown from 'react-markdown';
@@ -83,6 +83,19 @@ function PartnerProfile({ partnerData, onBack, userData }) {
             </AccordionDetails>
           </Accordion>
 
+          {partnerDetails.opening_line && (
+            <Box mt={3} mb={3}>
+              <Typography variant="h6" gutterBottom>Opening Line</Typography>
+              <Paper elevation={2} sx={{ p: 2, bgcolor: 'background.default' }}>
+                <Typography variant="body1" fontStyle="italic">
+                  "{partnerDetails.opening_line}"
+                </Typography>
+              </Paper>
+            </Box>
+          )}
+
+          <Divider sx={{ my: 3 }} />
+
           <Accordion defaultExpanded={true}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
@@ -92,11 +105,13 @@ function PartnerProfile({ partnerData, onBack, userData }) {
               <Typography variant="h6">Discussion Points</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              {partnerDetails.discussion_points?.map((point, index) => (
-                <Box key={index} mt={1}>
-                  <ReactMarkdown remarkPlugins={[remarkGfm]}>{point}</ReactMarkdown>
-                </Box>
-              ))}
+              <ol style={{ paddingLeft: '20px', margin: 0 }}>
+                {partnerDetails.discussion_points?.map((point, index) => (
+                  <li key={index} style={{ marginTop: '8px' }}>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>{point}</ReactMarkdown>
+                  </li>
+                ))}
+              </ol>
             </AccordionDetails>
           </Accordion>
         </Paper>
