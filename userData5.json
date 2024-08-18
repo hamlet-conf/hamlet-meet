@@ -1,0 +1,302 @@
+[
+  {
+    "ID": 16,
+    "Name": "Evangelia Aspropotamiti",
+    "Seniority/Role": "PhD student",
+    "Affiliation": "The Niels Bohr Institute",
+    "ORCID": "",
+    "researcher_badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Machine Learning in Quantum Physics",
+          "research_interest_long_description": "Evangelia focuses on the integration of machine learning techniques into her work in quantum physics. With her background in CNNs and untrained neural networks, she seeks to explore how these modern computational tools can enhance her research in quantum optomechanics. She is particularly interested in investigating innovative ways to apply machine learning models to complex quantum systems, aiming to extract meaningful data and insights that could not be achieved through traditional analytical methods. This interdisciplinary approach allows her to bridge the gap between advanced machine learning and the experimental challenges posed by quantum phenomena.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Quantum Optomechanics",
+          "research_interest_long_description": "In her pursuit of a PhD, Evangelia delves into the fascinating realm of theoretical quantum optomechanics. Her research encompasses the study of the interaction between light and mechanical oscillators at the quantum level, which has profound implications for the development of future quantum technologies. She is specifically interested in the theoretical frameworks that govern these interactions and how they can be manipulated to observe and control quantum states. Evangelia's work contributes to a deeper understanding of how quantum mechanics operates at macroscopic scales, potentially laying the foundation for groundbreaking advancements in quantum information processing.",
+          "font_awesome_icon": "fas fa-atom"
+        },
+        {
+          "research_interest_title": "Collaboration and Knowledge Sharing",
+          "research_interest_long_description": "Evangelia is eager to engage with fellow researchers at workshops to foster collaboration and knowledge sharing. She values opportunities to discuss ideas and methods with other physicists who are also applying machine learning in their work. By participating in these discussions, she aims to gain diverse perspectives on the applicability of machine learning in quantum research, receive feedback on her projects, and potentially collaborate on future endeavors. Her goal is to create a vibrant community of researchers where knowledge flows freely, enhancing the overall impact of machine learning in physics.",
+          "font_awesome_icon": "fas fa-users"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 38,
+    "Name": "Rasmus Bj\u00f8rk",
+    "Seniority/Role": "Professor",
+    "Affiliation": "Technical University of Denmark",
+    "ORCID": "0000-0002-3728-2326",
+    "researcher_badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Machine Learning Applications in Material Science",
+          "research_interest_long_description": "Rasmus is particularly interested in the deployment of machine learning techniques, especially Convolutional Neural Networks (CNNs) and generative models, to enhance material science research. His focus lies in how these advanced computational methods can be employed to better analyze and predict the properties of novel materials, improving the efficiency of material design. Rasmus believes that these ML methods can significantly refine experimental processes and assist in discovering new materials with desirable characteristics, ultimately bridging the gap between computational predictions and practical applications.",
+          "font_awesome_icon": "fas fa-laptop-code"
+        },
+        {
+          "research_interest_title": "Thermal Processes and Magnetism",
+          "research_interest_long_description": "In his research, Rasmus explores the intricate relationship between heat transfer and magnetism. He is keen on understanding how variations in thermal processes affect magnetic properties in materials. Rasmus aims to conduct experiments and simulations that delve into the thermomagnetic behavior of different material systems, shedding light on the mechanisms at play during heat-induced magnetic transitions. His goal is to contribute to the understanding of how we can utilize heat and magnetic responses in practical applications, such as in data storage and energy conversion devices.",
+          "font_awesome_icon": "fas fa-thermometer-half"
+        },
+        {
+          "research_interest_title": "Innovative Freeze-Casting Techniques",
+          "research_interest_long_description": "Rasmus's research also encompasses innovative approaches to freeze-casting techniques. He is dedicated to developing advanced devices that offer high precision in temperature control during freeze-casting processes. His recent work has demonstrated the significant impact that controlled thermal gradients can have on the structural characteristics of materials. By investigating the kinetics of freezing under dynamic conditions, Rasmus aims to refine manufacturing processes that result in materials with precise microstructure and enhanced functionality. This research has implications in various industries, including aerospace and biomedical engineering.",
+          "font_awesome_icon": "fas fa-snowflake"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 34,
+    "Name": "Peter B\u00f8ggild",
+    "Seniority/Role": "Professor",
+    "Affiliation": "Technical University of Denmark",
+    "ORCID": "0000-0002-4342-0449",
+    "researcher_badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "AI and ML in Research",
+          "research_interest_long_description": "Peter is deeply invested in exploring how artificial intelligence (AI) and machine learning (ML) can revolutionize research methodologies. He focuses on responsibly and effectively integrating these technologies within research frameworks to enhance efficiency and accuracy. His vision extends to ensuring that AI is utilized ethically, maintaining the integrity of scientific inquiry while leveraging its power to process complex data sets. By tapping into the potential of AI and ML, Peter aims to foster innovations that propel research forward without compromising ethical standards.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Quantum Devices and Current Flow Prediction",
+          "research_interest_long_description": "Peter's research is at the intersection of quantum physics and machine learning, specifically in predictive modeling of current flow in advanced quantum devices. He is particularly intrigued by developing ML algorithms capable of simulating and predicting the behaviors of quantum systems, including the efficient mapping of circuitry shapes and topologies. By using these cutting-edge computational methods, Peter aspires to unlock new understandings of quantum transport phenomena, enabling advancements in nanoscale technology and innovation.",
+          "font_awesome_icon": "fas fa-microchip"
+        },
+        {
+          "research_interest_title": "Condensed Matter and 2D Materials",
+          "research_interest_long_description": "With a strong foundation in condensed matter physics, Peter investigates the properties and applications of two-dimensional materials, such as graphene and transition metal dichalcogenides. His work emphasizes the electronic and transport characteristics of these materials, particularly at the nanoscale. By employing first-principles computational techniques, Peter examines the role of defects, grain boundaries, and heterostructures in modulating electrical properties. His aim is to contribute to the growing field of nanotechnology by advancing the understanding of 2D materials for future electronic applications.",
+          "font_awesome_icon": "fas fa-layer-group"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 29,
+    "Name": "Ra\u00fal Carballo-Rubio",
+    "Seniority/Role": "Post-doc",
+    "Affiliation": "Southern Denmark University (SDU)",
+    "ORCID": "0000-0001-6389-6105",
+    "researcher_badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Black Hole Imaging",
+          "research_interest_long_description": "Ra\u00fal is dedicated to understanding the complex nature of black holes through advanced imaging techniques. His work involves examining the features of black holes and horizonless spacetimes, particularly focusing on how new physics beyond General Relativity can affect these images. By utilizing machine learning methods, he aims to enhance the analysis of observational data from radio telescope arrays, which can significantly improve our interpretations of black hole characteristics. His goal is to contribute to the comprehension of singularities and their implications in modern physics.",
+          "font_awesome_icon": "fas fa-camera"
+        },
+        {
+          "research_interest_title": "Machine Learning in Physics",
+          "research_interest_long_description": "Ra\u00fal is exploring the intersection of machine learning and physics, particularly in the realm of data analysis for astrophysics. He is interested in employing machine learning techniques for image and pattern recognition in interferometric data related to black holes. His focus is on effectively analyzing black hole images to extract meaningful information that could lead to new insights in observational astronomy. Ra\u00fal envisions leveraging these techniques to address some open questions in black hole physics, enhancing the collaborative efforts within the research community.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Quantum Gravity and Regularization",
+          "research_interest_long_description": "Ra\u00fal is involved in research regarding the fundamental aspects of black hole physics, particularly the implications of quantum gravity. His work focuses on understanding singularity regularization and its effects on black hole behavior. By studying these concepts, he aims to bridge gaps in theoretical physics and provide a clearer understanding of singularities within the framework of quantum mechanics. Ra\u00fal is passionate about integrating innovative techniques to further this research and contribute valuable knowledge to the scientific community.",
+          "font_awesome_icon": "fas fa-theater-masks"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": "Data challenges for black-hole image reconstruction and feature identification",
+      "Url": "https://indico.nbi.ku.dk/event/2067/contributions/15516/"
+    }
+  },
+  {
+    "ID": 33,
+    "Name": "Ka Hei Choi",
+    "Seniority/Role": "PhD student",
+    "Affiliation": "Ludwig Maximilian University of Munich",
+    "ORCID": "",
+    "researcher_badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Graph Neural Networks in Physics",
+          "research_interest_long_description": "Ka Hei is exploring the application of graph neural networks in theoretical and computational physics. His focus includes how these advanced machine learning techniques can enhance understanding of complex physical systems, particularly within the realm of high-energy physics. He aims to connect graph representations of physical data to derive insights and patterns in areas such as gravitational collapse and black hole physics. As Ka Hei delves deeper, he is eager to share findings and collaborate with others in the field to push the boundaries of current research methodologies.",
+          "font_awesome_icon": "fas fa-network-wired"
+        },
+        {
+          "research_interest_title": "Advancements in Neural Network Architectures",
+          "research_interest_long_description": "Ka Hei is particularly interested in the latest developments in artificial neural network architectures that show significant potential for various applications. He seeks to understand the strengths of these architectures and what makes them promising tools for addressing complex problems in physics and beyond. By staying abreast of emerging technologies and breakthroughs in this area, he is motivated to assess how these advancements can be integrated into his research, especially in studying phenomena in cosmology and biophysics.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Machine Learning in Cosmology and Biophysics",
+          "research_interest_long_description": "Ka Hei is passionate about utilizing machine learning methods to explore and analyze data in cosmology and biophysics. He works with numerical simulations to convert scalar field data into tangible 3D images, enabling deeper insights into the universe's formation and the behavior of primordial black holes. By leveraging machine learning techniques, he aspires to uncover new patterns and correlations within complex datasets, fostering collaborative opportunities with researchers who share similar interests in these interdisciplinary fields.",
+          "font_awesome_icon": "fas fa-database"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 25,
+    "Name": "Theodoros Diamantopoulos",
+    "Seniority/Role": "Post-doc",
+    "Affiliation": "Technical University of Denmark",
+    "ORCID": "",
+    "researcher_badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Machine Learning in Scientific Discovery",
+          "research_interest_long_description": "Theodoros focuses on integrating machine learning methods into the realm of scientific discovery. He is particularly interested in how these advanced algorithms can enhance the understanding and prediction of complex physical phenomena. His work aims to bridge the gap between theoretical physics and computational techniques, enabling more efficient data analysis and innovative solutions to scientific challenges. Through the application of these methods, he hopes to contribute to significant breakthroughs in various scientific fields.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Physics-Informed Neural Networks (PINNs)",
+          "research_interest_long_description": "Theodoros has a keen interest in Physics-Informed Neural Networks (PINNs), a cutting-edge approach that combines neural networks with physical laws. This methodology allows for the solution of differential equations that govern physical systems while enforcing compliance with underlying physics during the training process. By leveraging PINNs, he aims to enhance modeling accuracy and efficiency in solving complex problems related to heat and mass transfer and fluid dynamics, contributing to more reliable simulations and predictive modeling techniques.",
+          "font_awesome_icon": "fas fa-cogs"
+        },
+        {
+          "research_interest_title": "Computational Fluid Dynamics (CFD)",
+          "research_interest_long_description": "Theodoros specializes in Computational Fluid Dynamics (CFD), focusing on the simulation and analysis of fluid flows. With a strong background in heat and mass transfer, he integrates numerical methods with physical modeling to study the behavior of fluids in various conditions. His research seeks to develop robust CFD techniques that can be applied to real-world engineering problems, thereby improving design and efficiency in industries ranging from aerospace to biomedical engineering. By advancing CFD methodologies, he aspires to make contributions that will lead to innovations in technology and enhanced problem-solving capabilities.",
+          "font_awesome_icon": "fas fa-water"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 19,
+    "Name": "atefe ebrahimi",
+    "Seniority/Role": "post-doc",
+    "Affiliation": "SISSA",
+    "ORCID": "",
+    "researcher_badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Machine Learning for Structured Data",
+          "research_interest_long_description": "Atefe is particularly interested in the development and application of machine learning methods tailored for structured and numerical data. She focuses on enhancing the interpretability and efficiency of these techniques, aiming to unlock new insights and patterns hidden within complex datasets. By integrating statistical analysis with machine learning algorithms, Atefe strives to advance the field in practical applications across various domains including physics and data-driven sciences.",
+          "font_awesome_icon": "fas fa-database"
+        },
+        {
+          "research_interest_title": "Condensed Matter Physics",
+          "research_interest_long_description": "Atefe's research in condensed matter physics encompasses a range of topics, including quantum phenomena and material properties at the nanoscale. Through her work, she explores the interactions between particles in condensed states and how these can be manipulated to create novel materials with unique characteristics. She seeks to bridge the gap between theoretical frameworks and experimental validation, thereby contributing to the ongoing advancement in this fascinating field.",
+          "font_awesome_icon": "fas fa-flask"
+        },
+        {
+          "research_interest_title": "Interdisciplinary Applications of ML and Physics",
+          "research_interest_long_description": "Atefe aims to combine her expertise in machine learning with the challenges faced in condensed matter physics. By leveraging machine learning tools, she endeavors to develop innovative solutions to complex physical problems, such as phase transitions and material discovery. This interdisciplinary approach not only enhances the understanding of physical systems but also paves the way for new technological advancements that rely on these interactions. She is committed to fostering collaboration between machine learning and physical sciences.",
+          "font_awesome_icon": "fas fa-atom"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 27,
+    "Name": "Sergey Fedorov",
+    "Seniority/Role": "Postdoc",
+    "Affiliation": "Niels Bohr Institute",
+    "ORCID": "0000-0003-4606-0546",
+    "researcher_badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Machine Learning in Quantum Measurements",
+          "research_interest_long_description": "Sergey is exploring the integration of modern machine learning techniques into quantum measurement systems. His focus lies in using machine learning to enhance the precision and efficiency of quantum measurements, particularly in situations where traditional methods may fall short. By applying advanced data analysis and modeling approaches, he aims to optimize the extraction of quantum information from physical systems, pushing the boundaries of what's achievable in quantum metrology.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Gaussian Processes for Time Series Analysis",
+          "research_interest_long_description": "Sergey is particularly interested in the application of Gaussian processes for analyzing time series data in physics experiments. This method allows for flexible modeling of complex data patterns, which is essential for characterizing phenomena that vary over time. By leveraging Gaussian processes, Sergey seeks to improve the understanding of dynamic systems and enhance predictive models, ultimately contributing to more reliable experimental outcomes in fields such as structural mechanics.",
+          "font_awesome_icon": "fas fa-chart-line"
+        },
+        {
+          "research_interest_title": "Mechanical Dissipation in Quantum Sensors",
+          "research_interest_long_description": "Sergey focuses on understanding mechanical dissipation in quantum sensors, a critical factor that impacts their performance. By investigating how elastic strain engineering can minimize dissipation, he aims to develop sensors with superior sensitivity and precision. His research bridges quantum mechanics and materials science, providing insights that could lead to breakthroughs in developing high-performance sensing technologies that operate at the quantum level.",
+          "font_awesome_icon": "fas fa-cogs"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 36,
+    "Name": "Christa Gall",
+    "Seniority/Role": "Associate Prof.",
+    "Affiliation": "DARK / Niels Bohr Institute / UCPH",
+    "ORCID": "",
+    "researcher_badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Machine Learning in Astrophysics",
+          "research_interest_long_description": "Christa is fascinated by the application of machine learning (ML) techniques in the field of astrophysics. She recognizes the potential of ML to enhance the interpretation of complex astrophysical data and improve our understanding of celestial phenomena. By utilizing ML algorithms, she seeks to explore larger parameter spaces and develop more effective methods for classifying different astrophysical objects. Christa believes that leveraging these innovative techniques will lead to new insights and revelations in the study of the universe.",
+          "font_awesome_icon": "fas fa-robot"
+        },
+        {
+          "research_interest_title": "Uncertainty Estimation in Astrophysical Measurements",
+          "research_interest_long_description": "In her research, Christa places a strong emphasis on the importance of estimating uncertainties in astrophysical measurements. She understands that accurately quantifying uncertainties is crucial for making reliable interpretations and drawing sound conclusions from observational data. Christa is eager to learn more about advanced statistical methods and ML approaches that can improve uncertainty estimation, ultimately benefiting the broader astrophysics community. Her work aims to bridge the gap between theoretical models and real-world data, ensuring that uncertainties are properly accounted for in scientific studies.",
+          "font_awesome_icon": "fas fa-calculator"
+        },
+        {
+          "research_interest_title": "Collaboration in Astrophysics Research",
+          "research_interest_long_description": "Christa is keen on finding potential collaborators for future projects focusing on machine learning techniques in astrophysics. She believes that interdisciplinary cooperation is a key component in advancing scientific research and is actively seeking partnerships with experts in various fields. By collaborating with fellow researchers, Christa aims to combine different perspectives, methodologies, and expertise to tackle complex astrophysical challenges. Her ultimate goal is to contribute to transformative research that pushes the boundaries of our understanding of the universe.",
+          "font_awesome_icon": "fas fa-users"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 48,
+    "Name": "Christian Glaser",
+    "Seniority/Role": "Associate Professor",
+    "Affiliation": "Uppsala University",
+    "ORCID": "0000-0001-5998-2553",
+    "researcher_badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "AI Methods for Enhanced Performance",
+          "research_interest_long_description": "Christian is focused on exploring AI methodologies, particularly normalizing flows for probability density function prediction. He also investigates various network architectures, including Convolutional Neural Networks (CNNs), Graph Neural Networks (GNNs), Transformers, Generative Adversarial Networks (GANs), and Diffusion Models. His goal is to identify the most effective architectures for real-time applications on resource-constrained hardware, which can significantly improve processing efficiency while maintaining performance standards in machine learning.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Astroparticle Physics and Neutrinos",
+          "research_interest_long_description": "Christian's research in Astroparticle Physics centers around high-energy and ultra-high-energy neutrinos, as well as cosmic rays. He is particularly interested in new detection techniques that can identify elusive high-energy neutrinos, focusing on methods such as in-ice radio detection. His work aims to enhance understanding of neutrino interactions, nucleon cross sections, and the flavor composition of ultra-high-energy cosmic neutrinos, contributing to the broader knowledge of fundamental physics and the universe.",
+          "font_awesome_icon": "fas fa-satellite"
+        },
+        {
+          "research_interest_title": "Innovative Detection Techniques",
+          "research_interest_long_description": "Christian is dedicated to developing cutting-edge detection techniques for high-energy neutrinos. His research includes modeling the propagation of radio pulses in ice to optimize the extraction of information such as neutrino energy and direction. By employing state-of-the-art computational methods and first-principle calculations, he aims to improve the signals detected from neutrino interactions, greatly aiding in the quest for new physics and enhancing the capabilities of current and future neutrino observatories.",
+          "font_awesome_icon": "fas fa-microscope"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": "Advancing Ultra-High Energy Neutrino Astronomy through Deep Learning and Differential Programming",
+      "Url": "https://indico.nbi.ku.dk/event/2067/contributions/15518/"
+    }
+  }
+]
