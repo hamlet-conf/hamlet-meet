@@ -8,19 +8,19 @@
     "badges": {
       "research_interests": [
         {
-          "research_interest_title": "Peatland Mapping and Sensor Fusion",
-          "research_interest_long_description": "Diana focuses on scalable mapping and monitoring of peatlands by integrating multiple proximal and remote sensors. She develops hierarchical survey workflows that combine surface covariates (DEM, vegetation indices) with subsurface geophysics (EMI, GPR, resistivity, tTEM) to delineate peat extent, map peat thickness and detect subsidence. Her work emphasizes methodological evaluation and cost-effectiveness, testing which sensor combinations perform best across bogs and fens and under varying field conditions. By fusing airborne/UAV radiometrics with ground-based measurements and targeted field sampling, Diana improves spatial predictions and creates practical guidelines for national inventories. Her applied approach links field-scale studies to broader mapping strategies and produces recommendations that support peatland restoration planning and greenhouse gas reporting.",
-          "font_awesome_icon": "fas fa-map"
-        },
-        {
-          "research_interest_title": "Machine Learning for Geospatial Prediction and Uncertainty",
-          "research_interest_long_description": "Diana applies and evaluates supervised and unsupervised machine learning methods tailored to geospatial environmental problems. She uses random forests, quantile random forests, multiple linear regression, kriging variants and clustering algorithms (DBSCAN, MCLUST, ISO Cluster) to improve predictions of peat depth, soil properties and GHG proxies. A current focus is Bayesian neural networks to quantify predictive uncertainty and integrate prior knowledge from geophysics and field measurements. She examines how combining surface and subsurface covariates enhances model performance, develops cross-validation and model comparison strategies appropriate for spatial data, and explores ways to turn probabilistic outputs into actionable maps for decision-makers. Her work aims to make ML models robust, interpretable and fit-for-purpose in environmental monitoring contexts.",
+          "research_interest_title": "Machine learning for geospatial and geophysical prediction",
+          "research_interest_long_description": "Diana develops and evaluates machine learning approaches tailored to geospatial and geophysical datasets to produce robust maps and uncertainty-aware predictions. She applies supervised methods (random forests, artificial neural networks) and unsupervised techniques (DBSCAN, MCLUST) to fuse heterogeneous covariates and to identify patterns in peatland structure. A current focal point is Bayesian neural networks to quantify predictive uncertainty and support decision\u2011sensitive mapping of peat thickness, carbon stocks and greenhouse gas implications. Diana investigates ensemble and non\u2011linear models versus linear baselines, optimal covariate selection, cross\u2011validation and spatially aware validation procedures, and sampling\u2011size effects. Her work emphasizes reproducible workflows and interpretable ML outputs so that modelled products are actionable for monitoring, field planning and downstream policy reporting.",
           "font_awesome_icon": "fas fa-brain"
         },
         {
-          "research_interest_title": "Applied Geophysics and Radiometric Techniques for Carbon Accounting",
-          "research_interest_long_description": "Diana works at the intersection of applied geophysics and carbon accounting, advancing use of portable and airborne radiometric methods to support peatland inventories. She tests portable gamma-ray spectrometry alongside airborne/UAV radiometrics, forward models GPR responses (gprMax) and integrates electrical and electromagnetic surveys to infer peat stratigraphy and organic content. Her research quantifies historical subsidence and long\u2011term carbon loss, evaluates proxies for greenhouse gas emissions, and recommends sensor-specific workflows for restoration monitoring (hydrology, vegetation, GHG proxies). By linking geophysical measurements to carbon stock estimates and restoration outcomes, Diana provides evidence-based guidance for survey design that balances accuracy, cost, and scalability to inform policy and national GHG reporting.",
-          "font_awesome_icon": "fas fa-radiation"
+          "research_interest_title": "Sensor fusion and on\u2011the\u2011go geophysical workflows",
+          "research_interest_long_description": "Diana researches practical sensor hierarchies and fusion strategies that combine proximal and airborne datasets (gamma\u2011ray spectrometry, electromagnetic induction, ground\u2011penetrating radar, transient EM and LiDAR) to map and monitor peatland properties. She evaluates which sensors perform best under differing peatland conditions\u2014e.g., GR for rapid extent delineation and drone\u2011borne surveys, EMI for minerotrophic fens and as a predictor of GPR suitability, and GPR for thick, resistive bogs\u2014and develops decision rules for integrated survey design. Her methodological contributions include workflows for continuous, on\u2011the\u2011go surveys, protocols for co\u2011registered multi\u2011sensor data, and strategies to translate geophysical signals into geologically meaningful predictors for statistical models and maps used in restoration planning.",
+          "font_awesome_icon": "fas fa-satellite-dish"
+        },
+        {
+          "research_interest_title": "Peatland carbon, subsidence monitoring and policy translation",
+          "research_interest_long_description": "Diana focuses on quantifying long\u2011term peatland subsidence, carbon losses and greenhouse\u2011gas consequences to inform restoration and national inventory efforts. She combines historical analyses, field campaigns and modelled spatial products to estimate carbon stocks, emission trajectories and the impacts of land\u2011use and management. Her research develops robust sampling and validation procedures and demonstrates how to translate geophysical and statistical outputs into policy\u2011relevant metrics and reporting formats. Diana emphasizes practical tools for land managers\u2014such as soil\u2011functional maps, monitoring designs, and emission reporting workflows\u2014that support restoration prioritization, climate mitigation strategies and evidence\u2011based policy decisions at local and national scales.",
+          "font_awesome_icon": "fas fa-seedling"
         }
       ]
     },
@@ -38,49 +38,19 @@
     "badges": {
       "research_interests": [
         {
-          "research_interest_title": "Practical Machine Learning for Experimental Biophysics",
-          "research_interest_long_description": "Noah seeks a solid, practical grounding in machine learning methods tailored to experimental biophysics. As a relative novice, he is eager to learn end-to-end workflows: problem formulation, data curation, model selection, validation, and deployment for laboratory use. He is particularly interested in interpretable models, uncertainty quantification, transfer learning from related biological imaging datasets, and strategies for working with small, noisy experimental datasets. Noah also wants guidance on integrating physics-informed priors and constraints into ML models, balancing black-box performance with reproducibility and explainability, and using tools that facilitate collaboration between experimentalists and methodologists. The goal is to leave with concrete, reproducible pipelines and practical heuristics he can apply to his single-molecule biosensing experiments.",
-          "font_awesome_icon": "fas fa-brain"
+          "research_interest_title": "Machine Learning Foundations for Experimental Biophysics",
+          "research_interest_long_description": "Noah seeks a comprehensive grounding in machine learning concepts tailored to experimental biophysics. As a relative novice, he wants practical exposure to supervised and unsupervised methods, model selection, cross-validation, and best practices for avoiding overfitting in small experimental datasets. Noah is particularly interested in understanding how statistical learning and probabilistic modeling can be integrated with physical intuition from biophysics experiments, how to interpret model outputs in the context of measurement uncertainty, and how to ensure reproducibility and rigorous evaluation. He aims to leave with hands-on skills to build, train, and validate models that directly support experimental decision-making and hypothesis testing in single-molecule biosensing workflows.",
+          "font_awesome_icon": "fas fa-atom"
         },
         {
-          "research_interest_title": "Image Analysis for Single-Molecule Biosensing",
-          "research_interest_long_description": "Noah focuses extensively on image analysis for single-molecule nanowire biosensing and wants to develop ML-based analytical solutions for microscopy data. He aims to master tasks such as spot detection and localization, denoising, segmentation of diffraction-limited signals, and single-particle tracking using convolutional neural networks, U-Nets, and recent self-supervised or physics-aware architectures. Practical concerns include generating realistic synthetic training data, data augmentation strategies for scarce labeled examples, performance metrics appropriate for counting and localization, and strategies for automating annotation pipelines. Noah also wants to learn how to integrate image-derived features with downstream statistical analyses and quality-control steps so that ML outputs can be used confidently in quantitative biosensing studies.",
+          "research_interest_title": "Image Analysis & Computer Vision for Single-Molecule Biosensing",
+          "research_interest_long_description": "Noah focuses on image analysis pipelines that extract quantitative information from microscopy data of single-molecule and nanowire biosensing experiments. He is interested in methods for denoising, segmentation, single-particle localization, tracking, and feature extraction that are robust to low signal-to-noise ratios and varying experimental conditions. Noah wants to learn how to prepare and augment training datasets, apply convolutional neural networks and transfer learning, and implement evaluation metrics relevant to localization accuracy and detection sensitivity. He also values interpretable approaches that link image-derived features back to physical events at the sensor surface and practical workflows for deploying these analyses in routine experimental pipelines.",
           "font_awesome_icon": "fas fa-image"
         },
         {
-          "research_interest_title": "Signal Processing and Statistical Modeling for Nanowire Sensors",
-          "research_interest_long_description": "Noah is interested in signal-processing and statistical-modeling techniques for electrical readouts from nanowire single-molecule sensors. He wants to learn practical approaches for time-series denoising, event detection, feature extraction, and real-time classification, together with principled statistical methods for handling correlated noise, missing data, and low-signal regimes. Given his methodological background, Noah is keen to combine classical approaches (filters, spectral methods) with probabilistic models and Bayesian or empirical-Bayes inference to quantify uncertainty and enable robust downstream inference. He is also interested in mixed-effects and joint modeling strategies to account for batch effects, device variability, and repeated-measures designs common in experimental biophysics.",
+          "research_interest_title": "Signal Processing and Time-Series ML for Nanowire Sensors",
+          "research_interest_long_description": "Noah is interested in advanced signal processing and time-series machine learning techniques for electrical readouts from nanowire-based single-molecule sensors. His priorities include noise reduction, baseline drift correction, event detection, classification of transient signatures, and extraction of kinetic parameters from noisy traces. Noah wants to explore classical DSP approaches alongside deep-learning architectures (e.g., CNNs for waveform patterns, RNNs/transformers for temporal dependencies) and techniques for real-time inference and low-latency deployment. He is keen to understand how to generate labeled training data, quantify detection limits, and combine physics-informed models with data-driven methods to improve robustness and interpretability of sensor-level analyses.",
           "font_awesome_icon": "fas fa-wave-square"
-        }
-      ]
-    },
-    "Contributions": {
-      "Title": null,
-      "Url": null
-    }
-  },
-  {
-    "ID": 76,
-    "Name": "Aayush Arya",
-    "Seniority/Role": "PhD Student",
-    "Affiliation": "Niels Bohr Institute, University of Copenhagen",
-    "ORCID": "0000-0001-6782-407X",
-    "badges": {
-      "research_interests": [
-        {
-          "research_interest_title": "Foundation models and Transformers for images and spectra",
-          "research_interest_long_description": "Aayush investigates how foundation models and Transformer architectures can be adapted to the analysis of complex imaging and spectral datasets from both laboratory mass spectrometry and astrophysical observations. He is interested in self-supervised and multimodal pretraining strategies that enable transfer across domains (high-resolution MS, chromatography images, telescope spectra) and in fine-tuning pipelines that preserve physical interpretability. Practical targets include automated peak picking and deconvolution, faint-line detection in noisy astronomical spectra, and cross-referencing spectral signatures with network-derived reaction products. Aayush emphasizes rigorous benchmarking against experimental mass-spectrometry datasets (e.g., formose reaction outputs) and observational catalogs, exploring calibration, domain adaptation, and explainability approaches to make Transformer outputs actionable for downstream chemical-network discovery and observational follow-up.",
-          "font_awesome_icon": "fas fa-file-image"
-        },
-        {
-          "research_interest_title": "Bayesian optimization for experiment design and instrument tuning",
-          "research_interest_long_description": "Aayush focuses on applying Bayesian optimization to efficiently tune instruments and guide closed-loop experiments in both laboratory and observational settings. He aims to reduce experimental resource usage while maximizing information gain: optimizing laser resonance chromatography parameters, mass-spectrometer acquisition settings, and telescope/sensor configurations to improve sensitivity to rare products or weak spectral lines. His interest spans constrained and multi-objective BO formulations (e.g., sensitivity vs. throughput vs. sample consumption), surrogate modeling for noisy and heteroscedastic responses, and integration with automated reaction-network enumeration to prioritize experiments that most increase the probability of discovering autocatalytic cycles or novel compounds. He also studies strategies for transfer learning of acquisition policies across sample types and for combining BO with physics- and network-informed priors.",
-          "font_awesome_icon": "fas fa-chart-line"
-        },
-        {
-          "research_interest_title": "Deep ensembles for robust uncertainty and discovery in chemical networks",
-          "research_interest_long_description": "Aayush is interested in deep-ensemble methods to provide calibrated uncertainties and robust predictions when mining complex chemical reaction networks and observational datasets. He explores ensembles for spectral deconvolution, image classification of chromatographic peaks, and detection of weak astrophysical features, using ensemble variance to flag ambiguous or out-of-distribution cases for experimental validation. By coupling uncertainty-aware predictions with network-centric discovery, Aayush seeks to prioritize candidate reaction pathways or spectral identifications that are both high-value and high-confidence, enabling targeted follow-up. He also evaluates how ensembles combine with Bayesian optimization and physics-based constraints to reduce false positives, support hypothesis testing about emergent autocatalysis, and increase reproducibility when models are deployed across different instruments and observational campaigns.",
-          "font_awesome_icon": "fas fa-network-wired"
         }
       ]
     },
@@ -98,19 +68,19 @@
     "badges": {
       "research_interests": [
         {
-          "research_interest_title": "Colloidal Synthesis and Surface Chemistry of Perovskite Nanocrystals",
-          "research_interest_long_description": "Dmitry focuses on controlled colloidal synthesis and surface chemistry strategies for lead\u2011halide and emerging halide perovskite nanocrystals. His work emphasizes precursor and ligand engineering (including oleylamine purification and I2\u2192oleylammonium iodide routes), shape\u2011selective methods for producing uniform nanocubes and ultrathin wires, and chemically driven phase transformations such as Cs4PbBr6 \u2192 CsPbBr3. Dmitry develops encapsulation approaches\u2014silica and polymer coatings\u2014and automated encapsulation protocols that enable multi\u2011year aqueous photoluminescence stability. Across synthesis and surface passivation, he combines synthetic innovation with rigorous diagnostics to improve stability, tune optical properties, and translate colloidal materials into device\u2011relevant forms. This interest spans practical lab protocols, reproducibility, and routes to scale and long\u2011term material performance in applications ranging from light emission to bioimaging.",
+          "research_interest_title": "Graph- and Transformer-based Materials Modeling",
+          "research_interest_long_description": "Dmitry is interested in developing and applying graph- and transformer-based machine learning models to relate perovskite composition, surface chemistry and superlattice structure to optoelectronic properties. Working with structured and numerical data derived from multilayer diffraction, X-ray scattering, DFT outputs and microscopy, he uses graph neural networks to represent atomistic and ligand\u2013nanocrystal connectivity and transformers to capture long-range correlations in composition and stacking. He applies these models to predict stability, halide segregation, doping limits and emergent collective phenomena such as superradiance, and to fuse experimental and simulated datasets for improved interpretability. He also explores generative models conditioned on structural constraints to propose novel compositions, ligand motifs and superlattice architectures, with uncertainty quantification to prioritize experiments for synthesis and structural refinement.",
+          "font_awesome_icon": "fas fa-project-diagram"
+        },
+        {
+          "research_interest_title": "ML for Ultrafast Spectroscopy & Exciton Dynamics",
+          "research_interest_long_description": "Dmitry seeks to integrate machine learning with ultrafast and time-resolved spectroscopy to extract mechanistic insight into exciton dynamics, energy transfer, and nonradiative processes in lead-halide and related perovskite nanocrystals. Using transformer architectures and sequence models tailored to 2D, pump\u2013probe and temperature-resolved datasets, he aims to deconvolve overlapping spectral features, recover hidden state kinetics, and identify signatures of superradiance, exciton\u2013phonon coupling and inter-nanocrystal transfer. He leverages ML-driven dimensionality reduction and latent-space modeling to compare dynamics across material compositions, ligand treatments and assembly states, and to flag anomalous aging behavior. These tools help translate complex transient datasets into physically meaningful parameters that guide synthesis, surface passivation strategies and device-relevant stability improvements.",
+          "font_awesome_icon": "fas fa-bolt"
+        },
+        {
+          "research_interest_title": "Active Learning & Generative Design for Synthesis and Stability",
+          "research_interest_long_description": "Dmitry is focused on applying active learning, closed-loop experimentation and generative design to accelerate synthesis, ligand engineering and encapsulation strategies for robust perovskite nanocrystals. He leverages quantitative assays of aqueous stability, automated polymer capsule encapsulation results and high-throughput structural readouts to train models that propose next experiments, optimize ligand formulations and predict long-term photostability. Generative models are used to suggest candidate organic ligands and composite encapsulants constrained by synthetic feasibility and surface chemistry rules; acquisition functions and uncertainty estimates prioritize experiments in the lab. By integrating experimental metadata, multilayer diffraction refinements and microscopy-derived structural descriptors, these ML workflows aim to shorten discovery cycles, improve reproducibility and produce materials with targeted optical performance for imaging and device applications.",
           "font_awesome_icon": "fas fa-flask"
-        },
-        {
-          "research_interest_title": "Ultrafast Photophysics and Collective Phenomena in Nanocrystal Assemblies",
-          "research_interest_long_description": "Dmitry investigates the photophysics of individual nanocrystals and their collective assemblies, exploring exciton dynamics, superradiance, and energy transfer in ordered superlattices and nanoplatelets. He employs advanced spectroscopies\u20142D electronic spectroscopy, pump\u2013probe techniques\u2014and multilayer diffraction as a laboratory metrology to quantify structural coherence and surface passivation in supercrystals. Research targets include disorder and aging effects, photoinduced halide chemistry in mixed\u2011halide systems, and interfacial energy transfer to 2D materials such as TMDCs. By combining time\u2011resolved measurements with structural diagnostics, Dmitry aims to connect microscopic disorder and surface chemistry to macroscopic optoelectronic behavior, guiding design rules for robust, collective photonic materials and improved device performance.",
-          "font_awesome_icon": "fas fa-microscope"
-        },
-        {
-          "research_interest_title": "Machine Learning for Materials Characterization and Lab Automation",
-          "research_interest_long_description": "Dmitry is beginning to apply machine learning to practical laboratory challenges and materials discovery for perovskite nanocrystals. He works with structured numerical datasets and graph representations, and is particularly interested in transformers and generative models to accelerate interpretation and design. Potential applications include graph\u2011neural models that map superlattice structure to optical response, generative approaches for proposing ligand or composition variants, anomaly detection and deconvolution in spectroscopy and scattering data, and closed\u2011loop experimental design for automated encapsulation and stability optimization. As a newcomer, Dmitry seeks feedback on model choices, data workflows, and integration of ML into synthesis and characterization pipelines to make experiments more predictive, reproducible, and efficient.",
-          "font_awesome_icon": "fas fa-robot"
         }
       ]
     },
@@ -128,18 +98,18 @@
     "badges": {
       "research_interests": [
         {
-          "research_interest_title": "Multi-scale dynamics of weakly collisional astrophysical plasmas",
-          "research_interest_long_description": "Thomas investigates the dynamics of weakly collisional astrophysical plasmas across scales, focusing on how magnetic fields, microscale kinetic processes and macroscopic fluid instabilities interact. He studies instabilities such as the Kelvin\u2013Helmholtz instability, the magneto\u2011thermal instability and heat\u2011flux\u2011driven buoyancy instabilities, and explores kinetic suppression mechanisms driven by whistler and mirror modes. His work synthesizes linear theory and high\u2011resolution nonlinear simulations to show how microphysical closures alter transport, mixing and dynamo processes in environments from cluster cores to galactic outflows. Thomas emphasises the importance of bridging kinetic physics and fluid MHD to predict observables reliably, and he uses these multi\u2011scale insights to inform models of conduction, viscosity and composition transport in astrophysical systems.",
+          "research_interest_title": "Magnetized plasma microphysics & instabilities",
+          "research_interest_long_description": "Thomas studies how kinetic plasma processes and microinstabilities shape macroscopic behaviour in astrophysical plasmas. He focuses on weakly collisional media such as the intracluster and circumgalactic media, exploring instabilities including firehose, mirror, whistler, Kelvin\u2013Helmholtz, magnetothermal (MTI) and heat-flux-driven buoyancy (HBI). Using analytic theory and targeted simulations, Thomas examines anisotropic transport (Braginskii viscosity, suppressed thermal conduction), microscale instability closures, and how microscale regulation of heat flux can produce critical transitions that alter turbulence and magnetic-field amplification. His work aims to connect microphysical closure models to large-scale dynamics, quantify when microscale suppression quenches or enables instabilities, and provide subgrid prescriptions that capture kinetic effects in MHD models while remaining computationally tractable for galaxy- and cluster-scale studies.",
           "font_awesome_icon": "fas fa-magnet"
         },
         {
-          "research_interest_title": "Numerical methods, high\u2011performance computing and community code development",
-          "research_interest_long_description": "Thomas develops and applies advanced numerical methods and HPC techniques to study nonlinear plasma dynamics and instabilities. He contributes code development and algorithmic advances across platforms such as Arepo, Athena, Psecas, Paicos and a Vlasov\u2011fluid PIC code, and implements efficient operators like Braginskii viscosity using super\u2011time\u2011stepping on moving meshes. His work couples eigenmode analysis, solver development and scalable postprocessing to enable high\u2011resolution simulations that resolve both macroscopic instabilities and mesoscopic kinetic effects. Thomas prioritises reproducible, community tools that support diagnostics, benchmarking and cross\u2011code comparison, helping to make sophisticated multi\u2011physics simulations accessible to the broader astrophysics and plasma physics communities.",
-          "font_awesome_icon": "fas fa-laptop-code"
+          "research_interest_title": "High-performance simulation methods & reproducible code",
+          "research_interest_long_description": "Thomas develops and applies high-resolution numerical tools to probe nonlinear plasma and fluid dynamics, emphasizing reproducibility and open science. He contributes modules and testbeds (Psecas, Paicos, Arepo modules) and validates algorithms through analytic wave solutions and convergence studies. His interests cover Vlasov-fluid hybrids, Braginskii MHD implementations, and strategies for resolving multiscale interactions between microscale instabilities and macroscale flows. Thomas also focuses on computational best practices: public code release, rigorous validation, and synthetic diagnostics that connect simulations to observations. By combining scalable HPC techniques with carefully designed numerical experiments, he seeks to enable robust, community-useable tools that let other researchers reproduce results and integrate kinetic-aware subgrid physics into large-scale astrophysical simulations.",
+          "font_awesome_icon": "fas fa-code"
         },
         {
-          "research_interest_title": "Learning and applying machine learning to astrophysical fluids",
-          "research_interest_long_description": "Thomas is keen to learn how machine learning is being used in Denmark and elsewhere to tackle problems in astrophysical fluid dynamics and plasma physics. Although he currently has no active ML project, he is interested in surveying practical applications such as surrogate modelling for expensive simulations, turbulence and transport closures informed by data, emulators for parameter studies, anomaly detection in large simulation/observational datasets, and ML\u2011assisted analysis pipelines. He is particularly attentive to methods that incorporate physical constraints, quantify uncertainty and preserve interpretability so that ML augments, rather than obscures, physical insight. Thomas aims to connect with practitioners to assess tools, best practices and possible pilot projects that could integrate ML into his multi\u2011scale modelling workflow.",
+          "research_interest_title": "Machine learning for simulations, diagnostics & discovery",
+          "research_interest_long_description": "Thomas is keen to learn how machine learning is being applied across astrophysics and computational plasma physics and to explore practical ways ML can augment his workflow. Although he currently has no ML project, he is interested in surrogate models and emulators for expensive kinetic simulations, ML-based closure models for unresolved microscale physics, automated feature extraction from large simulation outputs, and learned synthetic-diagnostic pipelines that map simulation states to observational signatures. He is also curious about uncertainty-aware ML methods and active-learning strategies to guide expensive simulation campaigns. Through the workshop he aims to identify ML methods and collaborations that can be realistically integrated into his reproducible-code ethos and HPC workflows to accelerate discovery without compromising physical interpretability.",
           "font_awesome_icon": "fas fa-robot"
         }
       ]
@@ -158,19 +128,19 @@
     "badges": {
       "research_interests": [
         {
-          "research_interest_title": "Analytical and computational approximants for nonlinear dynamics",
-          "research_interest_long_description": "Jonas develops principled analytical and computational approximation methods for nonlinear, out-of-equilibrium systems, with a central emphasis on the BLUES (Beyond Linear Use of Equation Superposition) function method. He extends and adapts BLUES to ordinary and partial differential equations (including second-order time derivatives) to produce rapidly convergent analytic approximants for solitons, wavefronts, interface growth, aeolian dune formation, telegrapher dynamics and reaction\u2013diffusion phenomena. His approach blends asymptotic insight, accelerated convergence techniques and practical numerical validation to yield compact, interpretable expressions that capture both transient and steady behaviour. Jonas values methods that bridge mathematical rigor and experimental relevance, supplying diagnostics and reduced descriptions that guide experiments, provide tight benchmarks for numerics, and enable tractable design and control across soft matter, active systems and biophysical contexts.",
-          "font_awesome_icon": "fas fa-flask"
+          "research_interest_title": "Polymer Topology and Knot Sampling",
+          "research_interest_long_description": "Jonas focuses on the statistical physics of polymers where topology \u2014 knots, braids and links \u2014 crucially shapes material and dynamical properties. He develops computational and theoretical tools to generate and characterise knotted configurations, combining braid-theoretic invariants (e.g. Jones polynomials) with physically informed measures of entanglement and aggregation transitions. A central challenge is efficient sampling of rare, highly knotted states in high-dimensional polymer configuration spaces; Jonas is interested in algorithmic advances that respect topological constraints and produce unbiased ensembles. Although he does not currently work in machine learning, he is actively seeking collaborations with ML researchers (notably those experienced with generative flow methods such as GFlowNets) to design proposal distributions, topology-aware moves, and validation benchmarks that accelerate exploration of knot space while preserving thermodynamic fidelity.",
+          "font_awesome_icon": "fas fa-dna"
         },
         {
-          "research_interest_title": "Sampling and generation of knotted polymer configurations",
-          "research_interest_long_description": "Jonas studies the statistical physics and low-dimensional topology of polymers with a focus on generating and characterizing knotted configurations. He combines braid-theoretic/topological diagnostics with stochastic modeling to quantify chirality, aggregation propensity and knotting statistics in confined and interacting polymer systems. A pressing methodological challenge he pursues is improving sampling efficiency for rare, topologically nontrivial states: Jonas is particularly interested in collaborating with machine-learning experts (notably those working on GFlowNets and advanced sampling schemes) to develop generative samplers and annealing protocols that can produce ensembles of strongly knotted configurations with correct weights. His goal is to couple topological invariants, geometric constraints and physics-based priors into sampling algorithms that enable unbiased estimation of knot probabilities, free-energy landscapes, and kinetics in polymeric and biopolymeric systems.",
-          "font_awesome_icon": "fas fa-knot"
+          "research_interest_title": "Non-equilibrium Statistical Physics and Active Matter",
+          "research_interest_long_description": "Jonas studies non-equilibrium phenomena in soft and active systems, with emphasis on minimal scalar models, interacting run-and-tumble particles, and mechanisms that yield collective condensation and anomalous transport. His work has revealed Bose\u2013Einstein\u2013like and reentrant condensation transitions, strong deviations from Gaussian tagged-particle dynamics, and novel steady states driven by diffusivity edges and activity. He combines analytic iteration methods with numerical simulations to probe how microscopic activity, interactions and constraints produce macroscopic phases and dynamical heterogeneity. Jonas is interested in bridging theory and experiment, developing reduced models for emergent behaviour, and exploring how topology and interactions modify standard non-equilibrium universality classes in active matter and soft condensed systems.",
+          "font_awesome_icon": "fas fa-atom"
         },
         {
-          "research_interest_title": "Thermodynamics, information trade-offs and multi-objective optimization",
-          "research_interest_long_description": "Jonas investigates fundamental thermodynamic and information-theoretic trade-offs that govern nonequilibrium systems and biological computation. His work derives universal bounds\u2014such as Fano-factor constraints from thermodynamic uncertainty relations\u2014and explores Pareto-optimal fronts for processes like molecular proofreading, heat-engine performance and positional-information encoding in driven reaction\u2013diffusion systems. He combines stochastic thermodynamics with geometric and topological diagnostics to quantify dissipation versus functional accuracy, and to design multi-function optimization protocols that balance competing objectives under physical constraints. Jonas is interested in methods to compute and visualize Pareto fronts, to identify thermodynamically efficient control strategies, and to translate universal bounds into actionable design rules for experiments and synthetic systems across soft matter, active matter and biological contexts.",
-          "font_awesome_icon": "fas fa-balance-scale"
+          "research_interest_title": "Analytic & Computational Methods for Nonlinear Dynamics",
+          "research_interest_long_description": "Jonas develops and extends analytic-computational frameworks for nonlinear ODEs and PDEs, notably the BLUES (Beyond Linear Use of Equation Superposition) function method, convergence-acceleration strategies, and matrix formulations that handle second-order time derivatives and hybrid models. He applies these tools to wavefronts, telegrapher and interface-growth (Burgers\u2013KPZ hybrid) problems, epidemics, heat transfer, dune formation and option-pricing (Black\u2013Scholes), and benchmarks them against ADM, VIM and perturbation theory. Beyond closed-form iteration schemes, Jonas explores numerical validation, multi-function optimisation and principled approximations that improve convergence and stability. He also investigates stochastic thermodynamics applications \u2014 universal Fano-factor bounds, Pareto-optimal trade-offs and information\u2013dissipation relations \u2014 and seeks collaborators to translate analytical advances into robust, scalable algorithms.",
+          "font_awesome_icon": "fas fa-cogs"
         }
       ]
     },
@@ -188,19 +158,19 @@
     "badges": {
       "research_interests": [
         {
-          "research_interest_title": "Generative Neural Networks for Event Simulation",
-          "research_interest_long_description": "Christian develops and applies generative neural-network architectures to accelerate and complement traditional Monte Carlo event simulation in high-energy physics. Christian explores models such as normalizing flows, score-based samplers, variational autoencoders and GANs to produce particle-level and detector-level events with high fidelity, while paying careful attention to exact symmetries, conservation laws and conditional control over physics labels. Christian is interested in hybrid workflows where learned generators plug into existing simulation chains, in techniques to reduce mode collapse and ensure coverage of rare processes, and in calibration strategies that align neural outputs with full simulation across systematic variations. Christian emphasizes quantitative validation against physics observables and the construction of diagnostics that probe both statistical and physics-driven discrepancies.",
+          "research_interest_title": "Generative Machine Learning for Event Generation",
+          "research_interest_long_description": "Christian explores the use of generative neural networks as novel engines for particle-level event generation and for augmenting traditional Monte Carlo simulations. He investigates normalizing flows, autoregressive models and bespoke architectures such as HOMER to learn hadronization patterns and produce ML-driven particle showers that can be interfaced with or reweighted against established generators. His work emphasizes rigorous validation, uncertainty-aware reweighting and curated MLHAD datasets so that learned models can be compared to physics-driven alternatives. Christian is particularly interested in hybrid workflows where generative models either replace expensive subcomponents, accelerate sampling, or provide differentiable surrogates that preserve interpretability and control over systematic variations relevant for collider analyses.",
           "font_awesome_icon": "fas fa-robot"
         },
         {
-          "research_interest_title": "Monte Carlo\u2013Machine Learning Integration for Phenomenology",
-          "research_interest_long_description": "Christian investigates how machine learning and Monte Carlo tools can be integrated to accelerate phenomenological studies and parameter inference. Christian works on surrogate models for fast likelihood or cross-section evaluation, differentiable emulators for detector response, and neural reweighting / importance-sampling schemes that enable efficient scans of theory parameter spaces and systematic uncertainty propagation. Christian also explores likelihood-free inference (simulation-based inference) techniques to extract posterior distributions for new-physics scenarios directly from simulated ensembles, and studies how learned components can be combined with analytic calculations to preserve theoretical constraints. Christian prioritizes reproducible, modular interfaces that let phenomenologists swap between full MC and ML-based surrogates while tracking fidelity and error budgets for experimental comparisons.",
+          "research_interest_title": "Microscopic String Models and Hadronization",
+          "research_interest_long_description": "Christian develops and applies microscopic, string-based descriptions of hadronization and collective effects to explain baryon and strangeness enhancement as well as flow-like signals in small and large collision systems. He implements mechanisms such as rope hadronization, string shoving, colour reconnection and junction formation within event generators, and has led core PYTHIA 8 development including the Angantyr heavy-ion extrapolation. His modelling philosophy stresses physically transparent, non-thermalised explanations that can be tested against experimental observables, offering alternatives to a thermalised QGP. Christian couples these approaches to hadronic cascades to quantify rescattering and to provide robust hybrid baselines for spectra, elliptic flow and jet quenching studies.",
           "font_awesome_icon": "fas fa-atom"
         },
         {
-          "research_interest_title": "Robust Validation, Uncertainty Quantification and Interpretability",
-          "research_interest_long_description": "Christian focuses on robust validation, uncertainty quantification and interpretability of machine-learned models used in particle-physics workflows. Christian develops metrics and coverage tests to quantify where ML surrogates diverge from full simulation, methods for propagating both statistical and systematic uncertainties through learned components, and strategies for domain adaptation when models trained on simulation are applied to real data. Christian further investigates interpretable representations and feature-attribution techniques that expose how models make physics decisions, and constructs ensemble and empirical-Bayes approaches to produce well-calibrated error estimates. Christian values transparent validation pipelines and educational tools that help the community adopt ML methods while retaining rigorous uncertainty control in phenomenological and experimental analyses.",
-          "font_awesome_icon": "fas fa-shield-alt"
+          "research_interest_title": "Open Monte Carlo Tools, Validation and Uncertainty Quantification",
+          "research_interest_long_description": "Christian champions reproducible Monte Carlo methodology, modular publicly released code and community validation frameworks. He contributes extensive tooling \u2014 from PYTHIA extensions and PISTA for heavy-ion event construction to Rivet analyses and automated fragmentation variations \u2014 that enable systematic tuning, validation and propagation of uncertainties. He couples event generators to hadronic transport (UrQMD) and develops uncertainty-aware reweighting schemes and automated variations to produce defensible theory baselines. Christian prioritises datasets, software and workflows that allow other researchers to reproduce, validate and extend results, preparing the community for precision studies in electron\u2013ion and future collider environments while facilitating outreach and broader adoption of robust simulation practices.",
+          "font_awesome_icon": "fas fa-tools"
         }
       ]
     },
@@ -218,18 +188,18 @@
     "badges": {
       "research_interests": [
         {
-          "research_interest_title": "Image Segmentation with U\u2011Net Architectures",
-          "research_interest_long_description": "Jack develops and applies convolutional encoder\u2013decoder networks, especially U\u2011Net variants, for precise image segmentation tasks. He focuses on biomedical and experimental imaging problems where pixel-wise labels and robust boundary detection are critical, tailoring architectures, loss functions (e.g., Dice, focal loss) and multi-scale feature fusion to improve performance on small and imbalanced structures. Jack integrates preprocessing and postprocessing steps, implements quantitative evaluation (IoU, precision/recall curves, calibration), and stresses reproducible training pipelines and model interpretability. His interest spans adapting segmentation models to domain-specific imaging modalities, optimizing inference speed for large 3D volumes, and linking segmented phenotypes to downstream statistical analyses in imaging genetics and experimental datasets.",
+          "research_interest_title": "Image Segmentation with U\u2011Nets",
+          "research_interest_long_description": "Jack focuses on developing and adapting U\u2011Net architectures for high-quality image segmentation problems. He investigates encoder\u2013decoder backbones, skip\u2011connection strategies and multi\u2011scale feature aggregation to improve boundary delineation and small\u2011object detection. Jack experiments with loss formulations tailored to imbalanced segmentation tasks (Dice, focal, boundary losses), explores regularization and fine\u2011tuning strategies for limited labeled data, and evaluates performance using IoU, Dice score and calibration metrics. He also considers practical deployment aspects such as inference speed, model compression and uncertainty estimation for segmentation outputs. Jack\u2019s approach bridges architectural design, training protocol and post\u2011processing to produce reliable segmentation maps for scientific and engineering imaging pipelines.",
           "font_awesome_icon": "fas fa-image"
         },
         {
-          "research_interest_title": "Robust Data Augmentation and Training Pipelines",
-          "research_interest_long_description": "Jack studies principled augmentation strategies and end\u2011to\u2011end training pipelines to increase model robustness and generalization. He experiments with geometric and photometric transforms, adversarial and synthetic sample generation, mixup and domain randomization, and augmentation policies that respect physical constraints of imaging data. Jack evaluates how augmentation interacts with regularization, batch composition, and class imbalance, and he designs reproducible workflows for large\u2011scale experiments that include deterministic data versioning, automated hyperparameter sweeps, and uncertainty estimation. Emphasis is placed on practical tooling: containerized experiments, clear documentation, and user\u2011friendly code so that augmentations and training regimes can be reliably translated into clinical or laboratory practice.",
-          "font_awesome_icon": "fas fa-cogs"
+          "research_interest_title": "Data Augmentation and Robust Training",
+          "research_interest_long_description": "Jack studies data augmentation strategies to improve model generalization and robustness, particularly for scarce or noisy datasets. He evaluates classical geometric and photometric transforms alongside advanced methods such as synthetic data generation, domain randomization and generative adversarial approaches. Jack is interested in automated augmentation policies (e.g., AutoAugment), mixing techniques (MixUp, CutMix) and task\u2011aware augmentations for dense prediction problems like segmentation. He also examines the effect of augmentations on model calibration, out\u2011of\u2011distribution behavior and uncertainty estimates, and develops augmentation pipelines that balance invariance with preservation of task\u2011relevant structure. Jack\u2019s work emphasizes reproducible augmentation workflows and empirical protocols to quantify how different strategies impact downstream performance and reliability.",
+          "font_awesome_icon": "fas fa-random"
         },
         {
-          "research_interest_title": "Longitudinal, Missing\u2011Data Methods and Physics Data Analysis",
-          "research_interest_long_description": "Jack applies and develops statistical methods for longitudinal, correlated and incomplete data, with an eye toward translating those techniques to experimental physics datasets. Drawing on experience collecting and analyzing data from an IEC fusion reactor, he focuses on mixed\u2011effects and random\u2011effects models, EM\u2011algorithm implementations, selection and mixture approaches for nonignorable dropout, and variance estimation techniques. Jack is interested in robust pipelines for time series quality control, handling structured missingness in sensor arrays, and combining ML\u2011based feature extraction (e.g., from segmented images) with principled inferential models. He seeks to bridge computer science and physics by producing reproducible software and practical algorithms that support collaborative, data\u2011driven experimental programs.",
+          "research_interest_title": "Machine Learning for Experimental Plasma Physics and Fusion Diagnostics",
+          "research_interest_long_description": "Jack aims to translate his data science skills into experimental plasma physics applications, building on prior experience collecting and analyzing data from an IEC fusion reactor. He explores ML techniques for processing diagnostic data streams, including image\u2011based plasma diagnostics, time\u2011series analysis of sensor signals and sensor fusion across heterogeneous instruments. Jack is interested in anomaly detection, real\u2011time inference for experiment control, predictive maintenance for hardware, and physics\u2011aware models that incorporate constraints or surrogate models to respect domain knowledge. He also investigates domain adaptation and transfer learning to move models trained on simulated data into real experimental settings. Ultimately, Jack seeks to bridge computer science methods and laboratory practice to deliver tools that accelerate experimental insight and support careers at the intersection of data science and plasma physics.",
           "font_awesome_icon": "fas fa-atom"
         }
       ]
@@ -248,18 +218,18 @@
     "badges": {
       "research_interests": [
         {
-          "research_interest_title": "Interpretable Machine Learning for Scientific Decisions",
-          "research_interest_long_description": "Raphael focuses on interpretable machine learning methods that combine the statistical rigor of classical inference with the flexibility of modern predictive models. He is interested in approaches that provide transparent feature attribution, calibrated uncertainty, and causal or semicausal interpretations suitable for scientific and clinical decision-making. Building on his work with EM algorithms, mixed models, and empirical Bayes, Raphael seeks ML methods that explicitly handle missing and biased data, respect clustered or longitudinal structures, and yield reproducible, well-documented software. He explores hybrid strategies\u2014e.g., interpretable surrogate models, structured regularization, and constrained deep learning\u2014that preserve interpretability without sacrificing predictive performance, and he evaluates them through simulation studies and real biomedical applications to ensure reliability and actionable insights.",
+          "research_interest_title": "Interpretable Machine Learning for Physics",
+          "research_interest_long_description": "Raphael focuses on developing interpretable and trustworthy machine learning methods tailored for physics applications. He is interested in model-agnostic explanation techniques, feature-attribution and saliency methods, surrogate models, and causal approaches that reveal how predictions relate to physical inputs and uncertainties. Raphael emphasizes the need for uncertainty-aware explanations, robustness to dataset shifts, and methods that integrate domain knowledge so that outputs remain physically meaningful. Practical goals include building transparent pipelines for detector diagnostics, bias identification, and model validation that enable physicists to inspect, debug, and trust ML-driven results. Raphael also explores visualization and human-centered tools that make complex model behaviour accessible to experimental collaborators, facilitating adoption of ML in high-stakes analyses where interpretability and accountability are essential.",
           "font_awesome_icon": "fas fa-brain"
         },
         {
-          "research_interest_title": "Statistical Methods for Longitudinal, Clustered and Genetic Data",
-          "research_interest_long_description": "Raphael advances methods for complex correlated data encountered in medical, epidemiologic, and genetic studies. His interests include random\u2011effects and mixed\u2011model frameworks for unbalanced repeated measures, EM and REML implementations for efficient estimation, generalized estimating equations for correlated binary outcomes, and likelihood and mixture models to address nonignorable dropout. He also develops empirical\u2011Bayes and nonparametric maximum likelihood techniques for mixing distributions, robust family\u2011based and haplotype/rare\u2011variant tests for genetics, and variance\u2011estimation and bootstrap procedures for valid inference. Raphael emphasizes translating theory into practical, well\u2011tested software and reproducible workflows so that these methods can be directly applied to problems such as longitudinal biomarker analysis, multi-phenotype genetic association, and meta-analytic synthesis across heterogeneous studies.",
-          "font_awesome_icon": "fas fa-dna"
+          "research_interest_title": "Neutrino and Astrophysical Transient Searches",
+          "research_interest_long_description": "Raphael is interested in applying machine learning to neutrino physics and searches for astrophysical transients such as supernovae. His work targets real-time detection pipelines that can isolate low-significance, time-correlated signals from high-rate backgrounds in noisy detector data. Raphael explores time-series classification, anomaly detection, denoising, and domain-adaptive algorithms to improve sensitivity to burst-like events, while maintaining control of false alarms for prompt multi-messenger alerts. He also investigates simulation-to-real transfer, generative models for rare signal augmentation, and interpretable selection criteria to ensure discoveries are physically credible. A major aim is to bridge instrumentation, theory, and ML tools so that neutrino detectors and multi-messenger networks can rapidly and reliably identify and characterize astrophysical transients.",
+          "font_awesome_icon": "fas fa-star"
         },
         {
-          "research_interest_title": "Particle and Astroparticle Data Analysis",
-          "research_interest_long_description": "Raphael is interested in statistical and computational techniques for particle and astroparticle physics problems such as neutrino oscillation measurements, supernova (SN) searches in astrophysical data, and analyses related to LHC experiments. He applies likelihood\u2011based inference, mixture models for signal/background separation, and robust handling of missing or censored observations to high\u2011dimensional detector data and time\u2011series searches. He is particularly keen on integrating interpretable ML tools and uncertainty quantification into pipelines for discovery and limits, designing analyses that respect experimental clustering and selection biases, and producing reproducible software that bridges methodological advances with domain collaborations in physics. Simulation studies, calibration of test statistics, and clear propagation of systematic uncertainties are central to his approach.",
+          "research_interest_title": "Machine Learning Across High-Energy Physics (LHC & Beyond)",
+          "research_interest_long_description": "Raphael seeks to explore and compare machine learning applications across collider and astroparticle experiments, with particular interest in LHC physics. He studies ML-driven approaches for event reconstruction, particle identification, anomaly detection, and fast simulation that scale to the large datasets and high-throughput environments of modern experiments. Raphael is keen on cross-pollinating methods between collider and neutrino/astrophysical communities\u2014transferring domain adaptation, unsupervised discovery, and calibration techniques to shared challenges. He prioritizes reproducible benchmarks and interpretable workflows that allow experimentalists to evaluate performance, systematic uncertainties, and robustness. Ultimately, Raphael aims to identify versatile ML components that accelerate discovery across HEP subfields while ensuring results remain physically transparent and experimentally deployable.",
           "font_awesome_icon": "fas fa-atom"
         }
       ]
@@ -278,19 +248,349 @@
     "badges": {
       "research_interests": [
         {
-          "research_interest_title": "Machine learning for experimental condensed-matter",
-          "research_interest_long_description": "Hippolyte investigates how modern supervised and probabilistic machine\u2011learning methods can be adapted to support experimental condensed\u2011matter physics. He is particularly interested in transforming statistical methodology for longitudinal and correlated biomedical data (mixed models, EM algorithms, missing\u2011data mechanisms) into practical tools for experimenters: robust preprocessing of noisy sensor time series, calibration and uncertainty quantification for high\u2011throughput measurements, and reproducible pipelines for combining imaging phenotypes with auxiliary metadata. Hippolyte aims to bridge theoretical rigor and experimental constraints \u2014 accounting for heterogeneity, nonignorable missingness, and population structure analogues in materials samples \u2014 so that ML models produce reliable, interpretable inferences that experimental collaborators can act on and validate.",
-          "font_awesome_icon": "fas fa-microscope"
-        },
-        {
-          "research_interest_title": "Reinforcement learning and bandits for adaptive experiments",
-          "research_interest_long_description": "Hippolyte explores reinforcement\u2011learning and bandit frameworks as principled ways to design and control adaptive experiments where measurements are costly and sequential decisions matter. Building on his experience with efficiency, variance estimation and robust inference in longitudinal and genetic studies, he focuses on sample\u2011efficient policies, exploration\u2013exploitation tradeoffs, and uncertainty\u2011aware stopping rules that maintain statistical validity. Hippolyte is interested in developing algorithms that respect experimental constraints (limited samples, correlated observations, measurement noise) and provide downstream guarantees for hypothesis testing and effect estimation. His goal is to translate bandit and RL theory into practical adaptive protocols for condensed\u2011matter labs that accelerate discovery while preserving interpretability and reproducibility.",
-          "font_awesome_icon": "fas fa-robot"
-        },
-        {
-          "research_interest_title": "Clustering and phenotype discovery in noisy high\u2011dimensional data",
-          "research_interest_long_description": "Hippolyte is interested in unsupervised learning methods for discovering meaningful subtypes and latent structure in noisy, high\u2011dimensional experimental data \u2014 analogues to his work on SuStaIn and multimarker genetics. He focuses on robust clustering, mixture models, principal\u2011component aggregation, and methods that explicitly handle correlated measurements and nonignorable missingness. Hippolyte seeks to combine statistical guarantees (stability, variance estimation, empirical\u2011Bayes adjustments) with scalable algorithms for imaging and spectroscopy, enabling reproducible subtype discovery and downstream association analyses. By adapting phenotype\u2011aggregation and multimodal integration techniques from epidemiology and genetics, he aims to provide experimentalists with validated, interpretable groupings that reveal mechanistic heterogeneity and guide targeted follow\u2011up experiments.",
+          "research_interest_title": "Model-based reinforcement learning and regret minimization",
+          "research_interest_long_description": "Hippolyte studies model-based reinforcement learning with a focus on rigorous regret minimization under the average-reward criterion. His work tightens exploration by integrating modern time-uniform and variance-aware concentration inequalities into UCRL-style algorithms, redesigning extended value iteration to ignore low-probability transitions and introducing UCRL3. He formally characterizes problem-dependent quantities such as local diameter and local effective support, and proves stronger high-probability and non-asymptotic regret bounds while demonstrating substantial empirical speedups. Hippolyte balances theory and practice: he derives matching lower bounds, evaluates algorithms on standard benchmarks, and emphasizes designs that are computationally efficient and robust to sparse transitions. This interest centers on principled, model-based techniques that yield provable performance guarantees in unknown decision processes, especially where average reward and long-run behavior matter.",
           "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Structure discovery and equivalence-aware learning",
+          "research_interest_long_description": "Hippolyte explores how structural priors and state-action equivalences can be discovered and exploited to accelerate learning in sequential decision problems. He formalizes state-action similarity notions to build equivalence-aware confidence sets and proposes algorithms such as ApproxEquivalence and C-UCRL to automatically identify latent classes. When C equivalence classes exist, his methods provably reduce regret by roughly a factor of sqrt(SA/C), and they remain effective when class membership must be estimated online. His research blends algorithm design, statistical concentration (variance-aware) and support estimation to adaptively ignore irrelevant transitions and aggregate information across similar contexts. Hippolyte is particularly interested in approaches that combine theoretical guarantees with scalable procedures for model selection and structure learning in practical RL settings.",
+          "font_awesome_icon": "fas fa-project-diagram"
+        },
+        {
+          "research_interest_title": "Machine learning applications for experimental condensed matter",
+          "research_interest_long_description": "Hippolyte is keen to connect his ML and RL expertise with experimental condensed matter physics. As he begins a postdoc collaborating with experimental groups, he wants to learn which ML approaches\u2014bandit strategies, reinforcement learning controllers, clustering, and supervised models\u2014are already impactful in lab workflows and where theory informs practice. He is interested in adaptive experimentation (online bandits and RL for automated measurement or control), data-driven analysis pipelines (clustering and supervised learning for feature discovery), and how structural priors or reward-machine abstractions can encode high-level experimental tasks. Hippolyte seeks transferable methodologies that respect experimental constraints (noise, cost, sparse data) and that leverage provable guarantees to make automated experimental design and control reliably practical.",
+          "font_awesome_icon": "fas fa-microscope"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 115,
+    "Name": "Jan-Matthias Braun",
+    "Seniority/Role": "Associate Prof.",
+    "Affiliation": "University of Southern Denmark",
+    "ORCID": "",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Physics\u2011Informed & Data\u2011Driven Neural Networks",
+          "research_interest_long_description": "Jan-Matthias develops and applies data-driven and physics-informed artificial neural networks to bridge empirical observations and mechanistic models. He focuses on architectures that embed conservation laws, symmetries, and known differential operators into learning pipelines to improve generalization from limited or noisy experimental data. His work spans custom LSTM nodes, autoencoder graphs and hybrid models that combine domain priors with flexible function approximators, emphasizing interpretability and computational efficiency for deployment on low-power hardware. Jan-Matthias also investigates robust training strategies, uncertainty quantification, and explainable components to ensure that learned representations remain physically plausible and actionable for downstream tasks such as prediction, state estimation, and control in complex physical systems.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Plasma Physics Modeling & ML\u2011Enhanced Diagnostics",
+          "research_interest_long_description": "Jan-Matthias pursues research at the intersection of plasma physics and machine learning, aiming to accelerate modeling and improve diagnostic interpretation. He studies kinetic and fluid descriptions of plasmas and uses ML tools to extract patterns from experimental and simulated datasets, enabling faster surrogate models, parameter inference, and anomaly detection. His approach emphasizes physically consistent surrogates that respect conserved quantities and known instabilities, while remaining efficient enough for real\u2011time analysis and control. He also explores hardware\u2011aware implementations\u2014mapping ML-enabled diagnostics and decoders to FPGA and embedded platforms\u2014to support deployable sensors and feedback systems in laboratory and industrial plasma applications.",
+          "font_awesome_icon": "fas fa-atom"
+        },
+        {
+          "research_interest_title": "Chaos, Nonlinear Dynamics & Predictive Control",
+          "research_interest_long_description": "Jan-Matthias investigates chaotic and nonlinear dynamical systems with the dual goals of understanding fundamental behavior and enabling reliable prediction and control. He develops methods to reconstruct attractors, quantify sensitivity to initial conditions, and design reduced-order models that retain essential nonlinear features. Combining ideas from dynamical systems theory with modern machine learning, he creates predictors and controllers that are robust to noise and model uncertainty, and that can operate on limited observational data. A strong emphasis on translational impact leads him to craft embedded, energy-efficient implementations for real\u2011time monitoring, adaptive control, and decision support in systems exhibiting complex spatiotemporal dynamics.",
+          "font_awesome_icon": "fas fa-random"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 69,
+    "Name": "Nuno Br\u00e1s",
+    "Seniority/Role": "PhD Student",
+    "Affiliation": "\u00c9cole Polytechnique, IP Paris",
+    "ORCID": "",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Generative and diffusion models for biomedical imaging",
+          "research_interest_long_description": "Nuno explores advances in generative and foundation models\u2014with special focus on diffusion models\u2014to synthesize, denoise and enhance biomedical images. Nuno develops probabilistic sampling schemes and architecturally specialized U\u2011Net backbones that leverage recent progress in score\u2011based and latent diffusion to produce high\u2011fidelity, uncertainty\u2011aware reconstructions. He studies adversarial training and likelihood\u2011based objectives to balance realism and calibration, and evaluates how foundation\u2011model pretraining and fine\u2011tuning improve transfer across heterogeneous ophthalmic datasets. Nuno also investigates methods to quantify and visualize epistemic and aleatoric uncertainty from generative pipelines, and to integrate conditioning signals (optical parameters, acquisition metadata) to control synthesis. The goal is reliable generative tools that assist clinicians, improve downstream analysis, and provide interpretable uncertainty for safe deployment.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Physics\u2011informed models of corneal optics and light scattering",
+          "research_interest_long_description": "Nuno works at the interface of machine learning, optics and biophysics to create physics\u2011informed models of corneal transparency and light scattering. Nuno combines forward physical models of beam propagation and scattering with data\u2011driven neural surrogates and physics\u2011informed neural networks (PINNs) to build hybrid models that respect conservation laws and known optical constraints. By embedding scattering theory, refractive index heterogeneity and optical priors into architectures and loss functions, Nuno enhances interpretability, robustness and extrapolative behavior beyond available training images. These hybrid models enable mechanistic parameter estimation, hypothesis testing about tissue microstructure, and diagnostic indices directly linked to physical optical properties. Nuno aims to translate such models into clinically actionable metrics while maintaining rigorous uncertainty quantification and validation against experimental measurements.",
+          "font_awesome_icon": "fas fa-atom"
+        },
+        {
+          "research_interest_title": "Segmentation, denoising and super\u2011resolution for ophthalmic imaging",
+          "research_interest_long_description": "Nuno develops and refines image segmentation, denoising and super\u2011resolution methods tailored to ophthalmic imaging, with particular emphasis on corneal layer segmentation using U\u2011Net architectures. Nuno integrates diffusion\u2011based denoisers and GAN\u2011driven super\u2011resolution pipelines to recover microstructural detail while preserving clinically relevant contrasts. He emphasizes interpretability and robustness by designing loss functions, uncertainty estimation and explainable failure modes that yield calibrated segmentation maps and reliable outputs across devices. Nuno also pursues domain adaptation and annotation\u2011efficient training to reduce labeling burden and improve generalization to diverse clinical settings. His work is evaluated with rigorous cross\u2011validation, clinically oriented metrics and ablation studies to ensure reproducibility, translational readiness and practical utility for early detection of transparency impairments.",
+          "font_awesome_icon": "fas fa-eye"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 27,
+    "Name": "Pietro Butti",
+    "Seniority/Role": "Post-doc",
+    "Affiliation": "QTC, D-IAS & IMADA, University of Southern Denmark",
+    "ORCID": "0000-0003-1141-9205",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Machine learning for lattice quantum field theory",
+          "research_interest_long_description": "Pietro develops machine-learning tools tailored to nonperturbative quantum field theory on the lattice, combining dynamical Monte Carlo simulations with representation learning. He employs autoencoders and normalizing flows to discover compact, interpretable latent coordinates that capture collective modes and long-range correlations, and to build learned generative models that accelerate sampling and reduce critical slowing down. His work connects rigorous scale-setting and continuum extrapolation techniques from lattice studies with ML-driven variance reduction, reweighting, and surrogate-modeling strategies, aiming to extract effective degrees of freedom that respect symmetries and topological structure. Pietro is particularly interested in methods that maintain control over systematic errors so that ML-augmented calculations can provide trustworthy, physics-aware predictions for strongly interacting gauge theories.",
+          "font_awesome_icon": "fas fa-atom"
+        },
+        {
+          "research_interest_title": "Latent-space dynamics and forecasting with neural ODEs",
+          "research_interest_long_description": "Pietro focuses on learning and forecasting latent dynamics from high-dimensional simulation and observational data using RNNs, neural ODEs and stochastic neural ODEs. He seeks compact latent descriptions where slow, emergent variables evolve according to low-dimensional differential laws, enabling long-time prediction of transport, relaxation, and phase-evolution phenomena. By combining autoencoder encodings with deterministic or stochastic continuous-time latent integrators, Pietro studies how to capture multi-scale interactions, propagate uncertainty, and incorporate conservation laws or symmetries into the learned dynamics. He also explores renormalization-group-inspired coarse-graining in latent space to separate fast transients from relevant slow modes, producing interpretable, physically constrained forecasting models for non-equilibrium systems.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Physics-informed ML for contagion and market dynamics",
+          "research_interest_long_description": "Pietro applies physics-informed machine learning to problems in epidemiology and financial markets, using ideas from percolation theory, renormalization-group dynamics and non-equilibrium statistical mechanics. He models contagion as percolation-like spreading on heterogeneous networks and uses latent-space ML to infer effective transmission kernels and coarse-grained thresholds from incomplete data. In market settings he studies emergent, out-of-equilibrium phenomena\u2014volatility clustering, liquidity crises, and cascade events\u2014by combining stochastic latent dynamics with agent- and field-like descriptions. A major goal is to develop predictive, uncertainty-aware tools that bridge mechanistic models and data, with particular interest in health-science applications where interpretable, physics-grounded ML can inform policy or clinical decision-making. Pietro seeks collaborators applying these techniques to real-world health and socio-economic datasets.",
+          "font_awesome_icon": "fas fa-heartbeat"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": "Machine Learning and Quantum Field Theory: a two-way dialogue",
+      "Url": "https://indico.nbi.ku.dk/event/2163/contributions/16365/"
+    }
+  },
+  {
+    "ID": 96,
+    "Name": "William B\u00e6renholdt",
+    "Seniority/Role": "Master student",
+    "Affiliation": "",
+    "ORCID": "",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Machine learning for insurance risk modeling",
+          "research_interest_long_description": "William focuses on applying machine learning techniques to quantify and predict insurance risk exposure. He is interested in how supervised and unsupervised learning algorithms\u2014such as gradient-boosted trees, deep neural networks, and clustering methods\u2014can complement traditional actuarial models to improve pricing, reserving, and scenario analysis. William explores feature engineering tailored to policy and exposure data, model interpretability for regulatory and business transparency, and robust validation strategies specific to low-frequency, high-severity events. His work emphasizes the integration of domain knowledge from actuarial mathematics with data-driven approaches to produce calibrated risk measures that support decision-making in underwriting and capital allocation. William aims to identify thesis topics that bridge method development with practical deployment in insurance operations.",
+          "font_awesome_icon": "fas fa-chart-line"
+        },
+        {
+          "research_interest_title": "Claims analytics and operational risk",
+          "research_interest_long_description": "William investigates machine learning approaches to claims analytics, with a focus on improving claims triage, cost estimation, and fraud detection. He is drawn to projects that leverage structured insurance records, text from loss descriptions, and temporal claim histories to predict claim severity, accelerate settlement, and prioritize investigations. William studies anomaly detection and sequence models to capture evolving claim trajectories, and emphasizes methods that balance predictive power with explainability for claims handlers and regulators. He is also interested in the challenges of data quality, censoring, and class imbalance common in claims datasets, and in developing workflows for model monitoring and maintenance to ensure reliable operational performance over time.",
+          "font_awesome_icon": "fas fa-file-invoice-dollar"
+        },
+        {
+          "research_interest_title": "Actuarial mathematics and probabilistic foundations for ML",
+          "research_interest_long_description": "William is motivated by the intersection of classical actuarial mathematics and modern machine learning, studying how probabilistic modeling, survival analysis, and stochastic processes can inform and be informed by data-driven techniques. He explores Bayesian and frequentist frameworks for uncertainty quantification, credibility theory extensions with hierarchical models, and how loss reserving and ruin theory can be augmented by flexible function approximators while preserving theoretical guarantees. William values approaches that maintain actuarial interpretability\u2014such as parametric-tail modeling and exposure-adjusted risk measures\u2014while exploiting ML for pattern discovery and nonlinearity. His interest includes methodological work that can serve as a rigorous foundation for a master thesis linking actuarial theory to practical ML tools used in risk management.",
+          "font_awesome_icon": "fas fa-calculator"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 112,
+    "Name": "Sascha Caron",
+    "Seniority/Role": "Assoc. Prof.",
+    "Affiliation": "Radboud University",
+    "ORCID": "0000-0003-2941-2829",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Supersymmetry and Dark Matter Phenomenology",
+          "research_interest_long_description": "Sascha studies supersymmetric interpretations of particle-physics observations with a strong emphasis on neutralino dark matter and global pMSSM fits. He has led profile-likelihood analyses that connect astrophysical hints \u2014 for example, the Fermi Galactic Center GeV excess \u2014 to concrete neutralino parameter regions and has explored naturalness and fine-tuning across SUSY constructions. His work spans concrete proposals for LHC search strategies and direct-detection experiments, and includes predictions for non-standard neutrino and gamma-ray spectra from annihilating dark matter. Throughout these projects Sascha emphasizes robust uncertainty quantification and model-recasting so that theoretical hypotheses can be compared to experimental constraints in a reproducible, practical way.",
+          "font_awesome_icon": "fas fa-atom"
+        },
+        {
+          "research_interest_title": "Collider Phenomenology and Precision QCD Modelling",
+          "research_interest_long_description": "Sascha focuses on reducing and quantifying theoretical uncertainties relevant for collider phenomenology, with particular attention to QCD fragmentation, parton-shower modelling and NLO effects. He has systematically studied fragmentation and shower uncertainties that impact dark-matter gamma-ray spectra and collider observables, and developed methods to make precision calculations practical for large scans and recasting. His work includes fast, frequency-correct event-generation tools and ultra-fast NLO cross-section approximations that bridge high-precision theory with the computational demands of LHC-scale analyses. Sascha aims to make theory\u2013data comparisons at colliders more reliable by combining careful uncertainty treatment with computationally efficient implementations suitable for experimental workflows.",
+          "font_awesome_icon": "fas fa-chart-line"
+        },
+        {
+          "research_interest_title": "Machine Learning Tools for Simulation, Search and Analysis",
+          "research_interest_long_description": "Sascha develops and benchmarks machine-learning toolchains tailored to particle and astro-particle physics problems, from deep generative models (VAEs/GANs) with density-information buffers for fast, frequency-correct event generation to transformer and graph architectures for tracking and event classification. He builds anomaly-detection frameworks \u2014 ensemble One-Class DSVD with flows, mixture-of-theories training and other approaches \u2014 and runs large public benchmarks such as the Dark Machines challenge, spanning billions of events. His ML work also covers active learning for high-dimensional parameter scans, neuromorphic energy/latency benchmarking, uncertainty-aware inference and open-source visualization and astronomy pipelines. Reproducibility, uncertainty quantification and model-independence are central to Sascha\u2019s tool-driven approach.",
+          "font_awesome_icon": "fas fa-robot"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 26,
+    "Name": "Jerome Chenevez",
+    "Seniority/Role": "Associate Professor",
+    "Affiliation": "DTU Space",
+    "ORCID": "",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "X\u2011ray timing and spectroscopy of compact objects",
+          "research_interest_long_description": "Jerome leads observational studies that use X\u2011ray timing and spectroscopy to probe accretion onto neutron stars and black holes. He focuses on thermonuclear (Type\u2011I) X\u2011ray bursts, QPOs, energy\u2011dependent phase lags, and cyclotron line characterization, combining high\u2011time\u2011resolution and broadband spectral data from missions such as INTEGRAL, NuSTAR, NICER and RXTE. Jerome uses reflection modeling, burst\u2013disk interaction analysis, and inner\u2011disk truncation measurements to constrain the physics of disks, boundary layers and magnetospheres, and to infer compact object properties. His work frequently couples targeted case studies with population\u2011scale catalogs to derive robust constraints on accretion regimes and transient behavior, emphasizing careful instrument calibration, spectral modeling, and physically motivated interpretation of timing\u2013spectral phenomena.",
+          "font_awesome_icon": "fas fa-telescope"
+        },
+        {
+          "research_interest_title": "Transient discovery, monitoring and survey catalogs",
+          "research_interest_long_description": "Jerome develops and exploits large survey programs and catalogs to find and monitor high\u2011energy transients across the Galactic Bulge and beyond. He leads efforts in long\u2011term monitoring (INTEGRAL Galactic Bulge program), catalog construction (MINBAR and intermediate/long burst catalogues), and coordinated multi\u2011mission follow\u2011up to characterize transient populations and evolution. Jerome blends mosaicking, pipeline development, and performance assessment of instruments to maximize sensitivity to faint or short\u2011lived events, and contributes to efforts to identify electromagnetic counterparts to gravitational\u2011wave events. He emphasizes reproducible data products and cross\u2011mission synthesis so that demographic inferences and rapid discovery alerts feed both targeted physical studies and broader population analyses.",
+          "font_awesome_icon": "fas fa-chart-line"
+        },
+        {
+          "research_interest_title": "Machine learning and data mining for FITS images, time series and graphs",
+          "research_interest_long_description": "Jerome is interested in applying ML/AI methods to astrophysical FITS data, including images, numerical tables and time series, and graph\u2011structured representations derived from multi\u2011wavelength observations. He seeks to learn and implement techniques for automated transient detection, anomaly and outlier identification, feature extraction from burst lightcurves and spectra, and graph\u2011based association of multi\u2011instrument detections. Jerome values interpretable models and robust pipelines that account for instrument systematics, heterogenous formats, and the need for reproducible catalogs. His goal is to marry domain expertise in X\u2011ray instrumentation and timing with modern data\u2011mining approaches to accelerate discovery and enable scalable analysis of large archival and survey datasets.",
+          "font_awesome_icon": "fas fa-brain"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 87,
+    "Name": "Cl\u00e9ment Cherblamc",
+    "Seniority/Role": "PhD Student",
+    "Affiliation": "Danish Meteorological Institute + Niels Bohr Institute",
+    "ORCID": "0009-0007-6645-6288",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Super-resolution with U\u2011Net\u2013style architectures for climate fields",
+          "research_interest_long_description": "Cl\u00e9ment develops and tests super-resolution methods tailored to gridded climate fields, exploiting U\u2011Net\u2013like encoder\u2013decoder architectures to reconstruct fine-scale structure from coarse model output. He is interested in architectures that preserve spatial coherence and physical balances, incorporating skip connections, multi-scale loss terms and physics\u2011aware regularization to prevent spurious artifacts. Cl\u00e9ment explores training strategies that combine reanalysis, satellite retrievals and high-resolution model campaigns, and assesses temporal consistency when upscaling sequences rather than isolated snapshots. He also studies uncertainty quantification for super-resolved fields, evaluating ensemble and Bayesian variants to capture epistemic and aleatoric error. Practical challenges he targets include domain shifts between observational and modeled data, computational scalability across polar domains, and metrics that reflect scientific usefulness rather than only pixel-wise error.",
+          "font_awesome_icon": "fas fa-network-wired"
+        },
+        {
+          "research_interest_title": "Generative climate data and synthetic field generation",
+          "research_interest_long_description": "Cl\u00e9ment investigates generative ML approaches \u2014 including GANs, variational autoencoders and normalizing flows \u2014 to create realistic synthetic climate datasets for downscaling, ensemble augmentation and process studies. He focuses on conditional generation techniques that can produce physically consistent fields given large\u2011scale drivers (e.g., synoptic state, boundary conditions), enabling the synthesis of plausible small\u2011scale variability not resolved in coarse models. A strong emphasis in his work is on injecting physical constraints (conservation, monotonicity, seasonal cycles) and on quantifying generative uncertainty so synthetic ensembles are useful for impact assessments. Cl\u00e9ment also explores how synthetic data can be used to train emulators for expensive processes, to fill observational gaps in polar regions, and to test sensitivity of ice\u2011sheet surface mass balance estimates to subgrid variability.",
+          "font_awesome_icon": "fas fa-cloud"
+        },
+        {
+          "research_interest_title": "Polar regional climate models and surface mass balance of ice sheets",
+          "research_interest_long_description": "Cl\u00e9ment works at the intersection of polar regional climate modelling and glaciological surface mass balance (SMB) studies. He investigates the processes that determine accumulation and melt over Greenland and Antarctica \u2014 including orographic precipitation, wind\u2011driven redistribution, radiative fluxes and melt\u2013refreeze cycles \u2014 and how regional climate models represent them at high latitudes. He is interested in coupling detailed SMB process understanding with model evaluation against sparse in situ and remote observations, and in developing ML\u2011based surrogates to accelerate SMB estimation for long ensembles and sensitivity experiments. Cl\u00e9ment is also concerned with the propagation of climate model biases into sea\u2011level projections, developing strategies for bias correction, downscaling and robust uncertainty characterization specifically targeted to polar climates.",
+          "font_awesome_icon": "fas fa-snowflake"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 31,
+    "Name": "Daniel Lomholt Christensen",
+    "Seniority/Role": "PhD student",
+    "Affiliation": "Niels Bohr Institute",
+    "ORCID": "https://orcid.org/0009-0005-7789-4182",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Graph Neural Networks for Structured Experimental Data",
+          "research_interest_long_description": "Daniel explores Graph Neural Networks (GNNs) as a natural framework for his large, somewhat structured experimental datasets. He is interested in representing instruments, sample environments, and measurement chains as graphs where nodes encode components or measurement sites and edges encode physical relationships or signal flow. Daniel aims to use GNNs not merely to classify or cluster observations but to learn relational patterns that reveal how measurements arise from underlying instrument configurations and sample conditions. His interests include transfer learning across beamlines, interpretable node- and edge-level attributions, and uncertainty-aware GNNs that can flag anomalous configurations or suggest targeted additional measurements. He also considers hybrid approaches that combine physics-based simulation priors with learned graph representations to improve generalization across experimental setups.",
+          "font_awesome_icon": "fas fa-project-diagram"
+        },
+        {
+          "research_interest_title": "High-fidelity Neutron Instrument and Sample Environment Simulation",
+          "research_interest_long_description": "Daniel focuses on simulation of neutron scattering instruments with particular emphasis on sample environment simulations and cost-sensitive instrument design. Building on experience with McStas and with work demonstrating that piecewise linear approximations of elliptical guides can preserve transport performance for beamlines such as BIFROST, he is keen to investigate how machine learning can accelerate, compress, and differentiate these simulations. His goals include training fast surrogate models that reproduce Monte Carlo outputs, developing differentiable emulators for gradient-based design optimization, and quantifying surrogate uncertainty so that simulation-informed decisions remain robust. He is also interested in coupling detailed sample-environment models with ML surrogates to enable rapid exploration of experimental parameter spaces and to inform practical tradeoffs between performance and manufacture cost.",
+          "font_awesome_icon": "fas fa-atom"
+        },
+        {
+          "research_interest_title": "Inverse Modeling and Causal Discovery of Data-Generating Processes",
+          "research_interest_long_description": "Daniel wants to use neural network methods to infer the processes that generated his datasets rather than only describing observed patterns. He is particularly interested in inverse modeling, causal discovery, and generative approaches (invertible networks, normalizing flows, and Bayesian deep learning) that can reconstruct instrument settings, environmental histories, or sample states from measured data. Key priorities are physically informed priors from simulation, explicit uncertainty quantification for calibrated inference, and model interpretability so that inferred causes can guide experimental design and troubleshooting. Daniel sees value in methods that can recommend minimal new measurements to disambiguate hypotheses about data provenance and that can be integrated into iterative simulation\u2013experiment loops for efficient instrument commissioning and problem diagnosis.",
+          "font_awesome_icon": "fas fa-brain"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 49,
+    "Name": "Hans Christiansen",
+    "Seniority/Role": "PhD Student",
+    "Affiliation": "University of Copenhagen",
+    "ORCID": "0009-0002-8082-9507",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Physics\u2011informed Machine Learning for Condensed Matter",
+          "research_interest_long_description": "Hans develops and applies physics\u2011informed machine learning approaches to bridge theoretical models and data in condensed matter systems. He focuses on architectures and loss functions that embed conservation laws, symmetries, and known effective Hamiltonians to improve generalization from simulated data to experimentally relevant regimes. Hans is particularly interested in using generative models and surrogate ML emulators to accelerate parameter sweeps and inverse problems, enabling fast exploration of phase diagrams and response functions. By combining domain knowledge with probabilistic ML, he seeks interpretable, uncertainty\u2011aware predictions that guide experiments and suggest new model refinements, while ensuring that learned representations respect physical constraints and scale with system size.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Simulation and Modeling of Strongly Correlated Materials",
+          "research_interest_long_description": "Hans studies strongly correlated electron systems using a mix of numerical simulation, model reduction, and data\u2011driven analysis. He develops and benchmarks simulation pipelines that generate high\u2011fidelity synthetic datasets (quantum Monte Carlo, DMFT, tensor networks) to train and validate ML methods for identifying collective behavior. His interests include learning effective low\u2011energy descriptions, accelerating many\u2011body solvers with learned preconditioners or surrogates, and extracting order parameters and emergent excitations from noisy or limited observables. By linking simulated ensembles to statistical inference frameworks, Hans aims to quantify model selection, causal links between microscopic couplings and macroscopic phases, and to propose experimentally testable signatures of strong correlation phenomena.",
+          "font_awesome_icon": "fas fa-atom"
+        },
+        {
+          "research_interest_title": "Quantum Transport, Topology and New Phase Discovery",
+          "research_interest_long_description": "Hans investigates quantum transport and topological phenomena with the goal of discovering novel phases of matter. He leverages simulated transport datasets and ML classifiers/regressors to map conductance signatures, localization transitions, and topological invariants across disorder, interaction, and driving parameters. Hans explores unsupervised and manifold\u2011learning techniques to reveal hidden order and to cluster transport regimes, and he employs active learning to prioritize simulations or measurements that maximize discovery potential. Through a combination of compact transport models, realistic device simulations, and interpretable ML tools, Hans aims to propose robust experimental probes for emergent phases and to understand how topology and correlations coevolve in nanoscale systems.",
+          "font_awesome_icon": "fas fa-network-wired"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 78,
+    "Name": "Francesca Curbis",
+    "Seniority/Role": "Associate professor",
+    "Affiliation": "MAX IV Lund University",
+    "ORCID": "0000-0002-7703-9232",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Free\u2011Electron Laser (FEL) Physics and Seeding Techniques",
+          "research_interest_long_description": "Francesca investigates the physics of free\u2011electron lasers with an emphasis on seeding strategies and coherence enhancement. She combines experimental demonstrations, theoretical analysis and particle\u2011tracking simulations to characterize seeded versus SASE FELs, quantify coherence and spectral properties, and optimize temporal and energy extraction performance. Notable work includes first direct high\u2011harmonic\u2011generation (HHG) seeding at 38.2 nm (with GW\u2011level output and coherent second harmonic at 19.1 nm) and seeded VUV pulse generation on storage rings. Francesca develops model\u2011based undulator taper optimization, explores phase\u2011jump techniques, and evaluates sensitivity and mitigation for echo\u2011enabled harmonic generation (EEHG) under CSR and chirped beams. Her focus is on improving pulse coherence, temporal resolution and FEL efficiency to enable next\u2011generation light\u2011source experiments.",
+          "font_awesome_icon": "fas fa-bolt"
+        },
+        {
+          "research_interest_title": "Accelerator and Beamline Design, Bunch Dynamics",
+          "research_interest_long_description": "Francesca works on accelerator and beamline design with hands\u2011on involvement in injector and photocathode gun development, bunch compression schemes, and longitudinal and transverse diagnostics. She contributes to linac and soft X\u2011ray laser projects, proposing linac extensions and implementing double\u2011achromat bunch compressors, transverse RF deflectors and advanced beam\u2011delivery systems. Her research addresses collective effects such as wakefields and coherent synchrotron radiation (CSR), longitudinal phase\u2011space tailoring and start\u2011to\u2011end simulation to preserve beam brightness and stability. Francesca employs analytic Vlasov/kinetic approaches alongside numerical tracking to inform practical mitigation strategies, aiming to maximize stability, temporal fidelity and energy\u2011extraction efficiency for high\u2011performance photon sources.",
+          "font_awesome_icon": "fas fa-cogs"
+        },
+        {
+          "research_interest_title": "Machine Learning for Accelerator Diagnostics and Imaging",
+          "research_interest_long_description": "Francesca applies machine learning to accelerator diagnostics, exploiting image data and simpler signals from accelerator components to extract actionable information in real time. She integrates ML methods with traditional instrumentation \u2014 including MCP/intensity monitors, Ce:YAG BPMs, spectrometers and timing/overlap diagnostics \u2014 to perform feature extraction, anomaly detection, and predictive maintenance. Her interests include image\u2011based beam monitoring, data\u2011driven calibration of diagnostics, surrogate modelling to accelerate start\u2011to\u2011end simulations, and ML\u2011assisted optimization of undulator tapering and timing overlap. Francesca seeks collaborations with ML experts to develop robust, uncertainty\u2011aware models and deployable workflows that bridge experimental measurements and control for improved stability and automated operation.",
+          "font_awesome_icon": "fas fa-robot"
+        }
+      ]
+    },
+    "Contributions": {
+      "Title": null,
+      "Url": null
+    }
+  },
+  {
+    "ID": 95,
+    "Name": "Daniel Alejandro Daza Valdebenito",
+    "Seniority/Role": "PhD Student",
+    "Affiliation": "Niels Bohr Institute",
+    "ORCID": "",
+    "badges": {
+      "research_interests": [
+        {
+          "research_interest_title": "Deep neural networks for protostellar observations",
+          "research_interest_long_description": "Daniel seeks a practical grounding in deep neural networks (DNNs) to analyze multi-epoch and multi-instrument observations of protostars. He aims to learn architecture design, training strategies, and evaluation techniques tailored to astronomical imaging and spectral time series, with attention to preprocessing heterogeneous datasets and augmenting limited labeled samples. Daniel plans to focus on methods to mitigate overfitting, quantify predictive uncertainties, and apply interpretability tools so that learned features can be related to physical processes. He is interested in end-to-end pipelines that map raw or minimally processed observations to physically meaningful parameters, enabling consistent inference across datasets and supporting robust scientific conclusions during his PhD work at the Niels Bohr Institute.",
+          "font_awesome_icon": "fas fa-brain"
+        },
+        {
+          "research_interest_title": "Representation learning with autoencoders and hybrid DNNs",
+          "research_interest_long_description": "Daniel is interested in autoencoders as a route to compact, physically informative representations of protostellar and disk data, and in how to combine those representations with supervised deep networks. He plans to explore variational, denoising, and convolutional autoencoders to compress noisy, heterogeneous observations into latent spaces useful for denoising, anomaly detection, domain adaptation, and data augmentation. Daniel will investigate strategies to fuse learned latents with downstream regressors or classifiers for parameter estimation, and to preserve interpretability by relating latent modes to astrophysical variables. This line of work aims to bridge sparse labels and diverse instruments while producing robust features that improve inference and guide further physical modelling.",
+          "font_awesome_icon": "fas fa-project-diagram"
+        },
+        {
+          "research_interest_title": "Dust evolution and disk substructures using similarity learning",
+          "research_interest_long_description": "Daniel focuses on dust physics in protoplanetary disks and on understanding the formation pathways of observed substructures, using machine learning tools such as Siamese networks and metric learning. He intends to apply pairwise and similarity-based methods to multi-wavelength and time-resolved observations to match features across epochs and instruments, detect subtle morphological changes, and prioritize candidates for physical follow-up. Daniel is particularly motivated to connect ML-identified patterns to grain growth, migration, dust\u2013gas interactions, and planet\u2013disk interactions by training on simulations and observational forward models. He seeks robust similarity metrics that are resilient to instrumental differences and that help reveal the evolutionary processes shaping disks and early planet formation.",
+          "font_awesome_icon": "fas fa-link"
         }
       ]
     },
