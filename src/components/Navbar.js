@@ -7,11 +7,11 @@ import Home from '@mui/icons-material/Home';
 
 function Navbar({ onShowProfile, onLogout, onShowHistory, showProfileButton = true, isHistoryShown }) {
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#1a237e' }}>
+    <AppBar position="static">
       <Toolbar>
         <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: 1 }}>
           <img src={`${process.env.PUBLIC_URL}/hamlet-square.png`} alt="Logo" style={{ height: 40, marginRight: 10 }} />
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 700, letterSpacing: '-0.01em' }}>
             Hamlet Meet
           </Typography>
         </Box>

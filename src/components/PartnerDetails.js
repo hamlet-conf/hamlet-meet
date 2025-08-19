@@ -81,7 +81,7 @@ function PartnerDetails({ userData, contributions }) {
       )}
       <Grid item xs={12}>
         <Box sx={{ mt: 3, display: 'flex', justifyContent: 'space-around' }}>
-          {userData.researcher_badges.research_interests.map((badge, index) => (
+          {(userData.badges?.research_interests || []).map((badge, index) => (
             <Box key={index} sx={{ textAlign: 'center', width: '30%' }}>
               <IconButton
                 onClick={() => handleBadgeClick(badge)}
