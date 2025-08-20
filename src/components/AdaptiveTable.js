@@ -61,8 +61,8 @@ function AdaptiveTable({ data, onPartnerSelect }) {
   };
 
   const getSimilarityLabel = (similarity) => {
-    if (similarity >= 0.8) return 'High';
-    if (similarity >= 0.6) return 'Medium';
+    if (similarity >= 0.7) return 'High';
+    if (similarity >= 0.63) return 'Medium';
     return 'Moderate';
   };
 
